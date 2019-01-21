@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Угадай число?</string>
+    <string name="number_edit_text_hint">Введите число</string>
+    <string name="info_text_view_init">Угадай число от 1 до 100</string>
+    <string name="button_play_text">Попробовать</string>
+    <string name="button_win_text">Повторить</string>
+    <string name="no_input">Попробуй что то ввести</string>
+    <string name="error_less_than_1">Меньше 1 ты вввел((</string>
+    <string name="error_more_than_100">Ну куда бульше 100</string>
+    <string name="error_less">Ухх, бери больше</string>
+    <string name="error_more">Ухх, бери меньше</string>
+    <string name="win">Урааааа!!!! Хочешь еще?</string>
+    <string name="history">Твои неудачные попытки</string>
+</resources>
