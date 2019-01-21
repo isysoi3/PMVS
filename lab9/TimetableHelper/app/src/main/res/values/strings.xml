@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Timetable Helper</string>
+    <string name="show">Show timetable</string>
+    <string name="edit">Edit timetable</string>
+    <string name="save">Save timetable</string>
+    <string name="add">Add new timetable item</string>
+    <string name="new_name">Name</string>
+    <string name="new_start_time">Start time</string>
+
+</resources>
