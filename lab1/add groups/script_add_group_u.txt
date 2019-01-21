@@ -1,0 +1,34 @@
+Скрипт запущен Вс 09 сен 2018 12:23:39
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m su Sysoi123u 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m g[Kgroupadd s[KSy[K[Ksti[Kudent123u
+groupadd: Permission denied.
+groupadd: не удалось заблокировать /etc/group; попробуйте ещё раз позже.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m suod[K[Kdo !!
+sudo groupadd student123u
+[sudo] пароль для Sysoi123u: 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m user add[K[K[K[K[K[K[K[Kgpasswd -a Sysoi123u studrnt[K[K[K[Kdent123u
+gpasswd: доступ запрещён.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m gpasswd -a Sysoi123u student123u[Kgpasswd -a Sysoi123u student123u[1@s[1@u[1@d[1@o[1@ 
+Добавление пользователя Sysoi123u в группу student123u
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m cd ..
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs $[00m cd ..
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sdu[K[Kudo chowm sy[Ktudent123u ~
+sudo: chowm: команда не найдена
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sudo chowm student123u ~[Klab1
+sudo: chowm: команда не найдена
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sudo chowm student123u lab1[C[C[C[C[C[C[C[C~[K[1P[1@n
+chown: неверный пользователь: «student123u»
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sudo chown student123u ~[C[C[1@:
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m l[Kls -l
+итого 4
+drwxr-xr-x 3 root root 4096 сен  9 10:14 [0m[01;34mpmvs[0m
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m ls -lsudo chown :student123u ~[Kpmbs[K[Kvs
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sudo chown :student123u pmvsls -l[K
+итого 4
+drwxr-xr-x 3 root student123u 4096 сен  9 10:14 [0m[01;34mpmvs[0m
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m exity[K
+exit
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m exit
+exit
+
+Скрипт выполнен Вс 09 сен 2018 12:39:18

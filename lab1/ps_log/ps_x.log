@@ -1,0 +1,158 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init splash
+    2 ?        S      0:00 [kthreadd]
+    4 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S      0:00 [ksoftirqd/0]
+    7 ?        S      0:02 [rcu_sched]
+    8 ?        S      0:00 [rcu_bh]
+    9 ?        S      0:00 [migration/0]
+   10 ?        S<     0:00 [lru-add-drain]
+   11 ?        S      0:00 [watchdog/0]
+   12 ?        S      0:00 [cpuhp/0]
+   13 ?        S      0:00 [cpuhp/1]
+   14 ?        S      0:00 [watchdog/1]
+   15 ?        S      0:00 [migration/1]
+   16 ?        S      0:00 [ksoftirqd/1]
+   18 ?        S<     0:00 [kworker/1:0H]
+   19 ?        S      0:00 [cpuhp/2]
+   20 ?        S      0:00 [watchdog/2]
+   21 ?        S      0:00 [migration/2]
+   22 ?        S      0:00 [ksoftirqd/2]
+   24 ?        S<     0:00 [kworker/2:0H]
+   25 ?        S      0:00 [cpuhp/3]
+   26 ?        S      0:00 [watchdog/3]
+   27 ?        S      0:00 [migration/3]
+   28 ?        S      0:00 [ksoftirqd/3]
+   30 ?        S<     0:00 [kworker/3:0H]
+   31 ?        S      0:00 [kdevtmpfs]
+   32 ?        S<     0:00 [netns]
+   33 ?        S      0:00 [khungtaskd]
+   34 ?        S      0:00 [oom_reaper]
+   35 ?        S<     0:00 [writeback]
+   36 ?        S      0:00 [kcompactd0]
+   37 ?        SN     0:00 [ksmd]
+   38 ?        SN     0:00 [khugepaged]
+   39 ?        S<     0:00 [crypto]
+   40 ?        S<     0:00 [kintegrityd]
+   41 ?        S<     0:00 [bioset]
+   42 ?        S<     0:00 [kblockd]
+   43 ?        S<     0:00 [ata_sff]
+   44 ?        S<     0:00 [md]
+   45 ?        S<     0:00 [devfreq_wq]
+   46 ?        S<     0:00 [watchdogd]
+   52 ?        S      0:00 [kauditd]
+   53 ?        S      0:00 [kswapd0]
+   54 ?        S<     0:00 [vmstat]
+   55 ?        S<     0:00 [bioset]
+   56 ?        S      0:00 [ecryptfs-kthrea]
+   96 ?        S<     0:00 [kthrotld]
+   97 ?        S<     0:00 [acpi_thermal_pm]
+   98 ?        S<     0:00 [bioset]
+   99 ?        S<     0:00 [bioset]
+  100 ?        S<     0:00 [bioset]
+  101 ?        S<     0:00 [bioset]
+  102 ?        S<     0:00 [bioset]
+  103 ?        S<     0:00 [bioset]
+  104 ?        S<     0:00 [bioset]
+  105 ?        S<     0:00 [bioset]
+  106 ?        S      0:00 [scsi_eh_0]
+  107 ?        S<     0:00 [scsi_tmf_0]
+  108 ?        S      0:00 [scsi_eh_1]
+  109 ?        S<     0:00 [scsi_tmf_1]
+  111 ?        S      0:00 [scsi_eh_2]
+  112 ?        S<     0:00 [scsi_tmf_2]
+  113 ?        S      0:00 [scsi_eh_3]
+  114 ?        S<     0:00 [scsi_tmf_3]
+  122 ?        S<     0:00 [ipv6_addrconf]
+  143 ?        S<     0:00 [charger_manager]
+  151 ?        S<     0:00 [bioset]
+  152 ?        S<     0:00 [bioset]
+  153 ?        S<     0:00 [bioset]
+  154 ?        S<     0:00 [kworker/1:1H]
+  155 ?        S<     0:00 [kworker/0:1H]
+  156 ?        S<     0:00 [kworker/3:1H]
+  205 ?        S<     0:00 [bioset]
+  206 ?        S<     0:00 [bioset]
+  207 ?        S<     0:00 [bioset]
+  208 ?        S<     0:00 [bioset]
+  210 ?        S<     0:00 [bioset]
+  211 ?        S<     0:00 [bioset]
+  213 ?        S<     0:00 [bioset]
+  214 ?        S<     0:00 [bioset]
+  217 ?        S      0:00 [scsi_eh_4]
+  218 ?        S<     0:00 [scsi_tmf_4]
+  219 ?        S      0:00 [scsi_eh_5]
+  220 ?        S<     0:00 [scsi_tmf_5]
+  224 ?        S<     0:00 [firewire]
+  225 ?        S      0:00 [scsi_eh_6]
+  226 ?        S<     0:00 [scsi_tmf_6]
+  227 ?        S      0:00 [scsi_eh_7]
+  228 ?        S<     0:00 [scsi_tmf_7]
+  229 ?        S<     0:00 [firewire_ohci]
+  233 ?        S<     0:00 [kworker/2:1H]
+  238 ?        S      0:00 [scsi_eh_8]
+  239 ?        S<     0:00 [scsi_tmf_8]
+  240 ?        S      0:00 [usb-storage]
+  246 ?        S<     0:00 [bioset]
+  328 ?        S<     0:00 [bioset]
+  357 ?        S      0:00 [jbd2/sdb3-8]
+  358 ?        S<     0:00 [ext4-rsv-conver]
+  395 ?        Ss     0:00 /lib/systemd/systemd-journald
+  415 ?        Ss     0:00 /sbin/lvmetad -f
+  427 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  748 ?        S      0:00 [nvidia-modeset]
+  768 ?        S      0:00 [UVM global queu]
+  769 ?        S      0:00 [UVM Tools Event]
+  808 ?        S      0:00 [jbd2/sdb2-8]
+  809 ?        S<     0:00 [ext4-rsv-conver]
+  968 ?        Ss     0:00 /lib/systemd/systemd-logind
+  972 ?        Ssl    0:00 /usr/sbin/ModemManager
+  984 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
+  997 ?        Ss     0:00 /usr/sbin/cron -f
+ 1001 ?        Ss     0:00 /usr/sbin/cupsd -l
+ 1005 ?        Ss     0:00 /usr/sbin/acpid
+ 1023 ?        S<     0:00 [iprt-VBoxWQueue]
+ 1069 ?        Ssl    0:00 /usr/sbin/cups-browsed
+ 1071 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+ 1073 ?        Ssl    0:00 /usr/sbin/NetworkManager --no-daemon
+ 1154 ?        SLsl   0:00 /usr/sbin/lightdm
+ 1177 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+ 1224 tty7     Ss+    2:55 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 1262 ?        Ss     0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+ 1337 ?        S      0:32 [irq/29-nvidia]
+ 1338 ?        S      0:00 [nvidia]
+ 1352 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp4s0.pid -lf /var/lib/NetworkManager/dhclient-e9c654e4-d8e7-3dab-a19f-38baaba69146-enp4s0.lease -cf /var/lib/NetworkManager/dhclient-enp4s0.conf enp4s0
+ 1655 ?        Ssl    0:00 /usr/lib/upower/upowerd
+ 1708 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+ 1720 ?        Sl     0:00 lightdm --session-child 12 21
+ 2040 ?        Ssl    0:01 /usr/lib/udisks2/udisksd --no-debug
+ 3524 ?        S      0:00 dbus-launch --autolaunch=bbada5cfcc9a4a80ac8dc5ce6d9f53aa --binary-syntax --close-stderr
+ 3526 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 4389 ?        Ssl    0:00 /usr/sbin/console-kit-daemon --no-daemon
+ 6161 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 6208 pts/0    S      0:00 su -
+ 6216 pts/0    S      0:00 -su
+ 6403 pts/0    S      0:00 su - Sysoi123u
+ 7568 ?        S      0:00 [kworker/0:0]
+ 7858 ?        Sl     0:03 /usr/bin/nemo /home/Sysoi123u/pmvs/lab1
+ 9851 ?        S      0:00 [kworker/2:0]
+10021 ?        S      0:00 [kworker/0:1]
+10379 ?        S      0:00 [kworker/1:0]
+10444 ?        S      0:00 [kworker/2:2]
+10493 ?        S      0:00 [kworker/3:1]
+10567 ?        S      0:00 [kworker/u8:1]
+10678 ?        S      0:00 [kworker/3:2]
+10757 pts/0    S+     0:00 sudo script ps_log.txt
+10758 pts/0    S+     0:00 script ps_log.txt
+10759 pts/3    Ss     0:00 bash -i
+10775 pts/3    S      0:00 su Sysoi123u
+10830 ?        S      0:00 [kworker/u8:0]
+10923 ?        S      0:00 [kworker/1:2]
+10935 ?        S      0:00 [kworker/u8:2]
+10981 ?        S      0:00 [kworker/0:2]
+10982 ?        S      0:00 [kworker/0:3]
+11016 ?        S      0:00 [kworker/3:0]
+11040 pts/3    S      0:00 su
+11048 pts/3    S      0:00 bash
+11080 pts/3    S+     0:00 sudo ps x
+11081 pts/3    R+     0:00 ps x

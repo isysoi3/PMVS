@@ -1,0 +1,77 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script  script_tar.txt
+Скрипт запущен, файл — script_tar.txt
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo tar -cvzf first.tar.gz ~/pmvs/lab1/first
+[sudo] пароль для Sysoi123u: 
+tar: Удаляется начальный `/' из имен объектов
+/home/Sysoi123u/pmvs/lab1/first/
+/home/Sysoi123u/pmvs/lab1/first/second_2/
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_2/
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_2/3.txt
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_2/3.txt.gz
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_3/
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_3/1_s.txt
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_3/4.txt
+/home/Sysoi123u/pmvs/lab1/first/second_2/third_3/1.txt
+/home/Sysoi123u/pmvs/lab1/first/second_1/
+/home/Sysoi123u/pmvs/lab1/first/second_1/third_1/
+/home/Sysoi123u/pmvs/lab1/first/second_1/third_1/2.txt
+/home/Sysoi123u/pmvs/lab1/first/second_1/third_1/1.txt
+/home/Sysoi123u/pmvs/lab1/first/second_1/2.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+adduser_r.txt                        copy_terminal_gzip.txt    first.tar.gz            script_catalogs_create_u.txt  script_pidof.txt     text_tee_file.txt
+copy_terminal_add_groups.txt         copy_terminal_pidof.txt   ps_log                  script_fuser.txt              script_tar.txt
+copy_terminal_catalogs_create_u.txt  copy_terminal_ps_log.txt  ps_log.txt              script_gzip.txt               script_u.txt
+copy_terminal_fuser.txt              first                     script_add_group_u.txt  script_mc.txt                 terminal_copy_u.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ scp first.tar.gz Sysoi123r@192.168.56.101:~/sysoi/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+first.tar.gz                                                                                                                100%  449     0.4KB/s   00:00    
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 11:36:26 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ ls
+3.txt  sysoi
+Sysoi123r@raspberry:~ $ cd sysoi
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar.gz  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $ gzip -d first.tar.gz
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $ tar -xf first.tar
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar  home  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $ cd home
+Sysoi123r@raspberry:~/sysoi/home $ ls
+Sysoi123u
+Sysoi123r@raspberry:~/sysoi/home $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ exit
+exit
+isysoi-P35AP-S lab1 # eixt
+eixt: команда не найдена
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - script_tar.txt
+

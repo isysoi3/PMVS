@@ -1,0 +1,64 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script catalogs_create_u.txt
+Скрипт запущен, файл — catalogs_create_u.txt
+isysoi-P35AP-S lab1 # su - Sysoi123u
+Sysoi123u@isysoi-P35AP-S ~ $ cd pmvs/lab1/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ mkdir first
+mkdir: невозможно создать каталог «first»: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo mkdir first
+[sudo] пароль для Sysoi123u: 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+adduser_r.txt  catalogs_create_u.txt  first  script_u.txt  terminal_copy_u.txt  text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cd first
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ sudo mkdir second_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ sudo mkdir second_2
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ ls
+second_1  second_2
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ cd second_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1 $ sudo mkdir third_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1 $ cd third_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ touch 1.txt
+touch: невозможно выполнить touch для '1.txt': Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ sudo touch 1.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ ls
+1.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ sudo touch 2.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ ls
+1.txt  2.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ cd ~/pmvs/lab1/fisrt
+-su: cd: /home/Sysoi123u/pmvs/lab1/fisrt: Нет такого файла или каталога
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ cd  ~/pmvs/lab1/first
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ ls
+second_1  second_2
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ cd second_2
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2 $ sudo mkdir third_2
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2 $ sudo mkdir third_3
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2 $ ls
+third_2  third_3
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2 $ cd third_2
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ sudo touch 3.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ cd ..
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2 $ cd third_3
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ ls
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ sudo touch 4.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ ls
+4.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ cd  ~/pmvs/lab1/first
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first $ cd second_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1 $ cd third_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ ln 2.txt ~/pmvs/lab1/first/second_1/
+ln: не удалось создать жёсткую ссылку '/home/Sysoi123u/pmvs/lab1/first/second_1/2.txt' => '2.txt': Операция не позволена
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ sudo ln 2.txt ~/pmvs/lab1/first/second_1/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ cd ..
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1 $ ls
+2.txt  third_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1 $ cd third_1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ sudo ln 1.txt ~/pmvs/lab1/first/second_2/third_3/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1 $ cd ~/pmvs/lab1/first/second_2/third_3/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ ls
+1.txt  4.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ sudo ln -s ~/pmvs/lab1/first/second_1/third_1/1.txt ~/pmvs/lab1/first/second_2/third_3/4.txt
+ln: не удалось создать символьную ссылку '/home/Sysoi123u/pmvs/lab1/first/second_2/third_3/4.txt': Файл существует
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ sudo ln -s ~/pmvs/lab1/first/second_1/third_1/1.txt ~/pmvs/lab1/first/second_2/third_3/1_s.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3 $ ls
+1_s.txt  1.txt  4.txt
+

@@ -1,0 +1,57 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script ps_log.txt
+Скрипт запущен, файл — ps_log.txt
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ mkdir ps_log
+mkdir: невозможно создать каталог «ps_log»: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo !!
+sudo mkdir ps_log
+[sudo] пароль для Sysoi123u: 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cd ps_log/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ man ps
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ ps -a > ps_-a.log
+bash: ps_-a.log: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo !!
+sudo ps -a > ps_-a.log
+bash: ps_-a.log: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a > ps_-a.txt
+bash: ps_-a.txt: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a > ps_a.txt
+bash: ps_a.txt: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a > ps.log
+bash: ps.log: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a
+  PID TTY          TIME CMD
+ 6208 pts/0    00:00:00 su
+ 6216 pts/0    00:00:00 bash
+ 6403 pts/0    00:00:00 su
+ 6411 pts/0    00:00:00 bash
+ 8061 pts/0    00:00:00 git
+ 8062 pts/0    00:00:00 git-remote-http
+10757 pts/0    00:00:00 sudo
+10758 pts/0    00:00:00 script
+10775 pts/3    00:00:00 su
+10783 pts/3    00:00:00 bash
+10948 pts/3    00:00:00 sudo
+10949 pts/3    00:00:00 ps
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a >> ps.log
+bash: ps.log: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo touch ps_-a.log
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a >> ps_-a.log
+bash: ps_-a.log: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo ps -a > sudo  ps_-a.log
+bash: sudo: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ su 
+Пароль: 
+isysoi-P35AP-S ps_log # sudo ps -a >> ps_-a.log
+isysoi-P35AP-S ps_log # sudo ps -e >> ps_-e.log
+isysoi-P35AP-S ps_log # sudo ps a >> ps_a.log
+isysoi-P35AP-S ps_log # sudo ps x >> ps_x.log
+isysoi-P35AP-S ps_log # sudo ps ax >> ps_ax.log
+isysoi-P35AP-S ps_log # exit
+exit
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ exit
+exit
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - ps_log.txt
+

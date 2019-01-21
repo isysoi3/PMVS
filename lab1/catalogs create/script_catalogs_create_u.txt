@@ -1,0 +1,68 @@
+Скрипт запущен Вс 09 сен 2018 10:51:58
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m su - Sysoi123u
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m cd pmvs/lab1/.git/[K[K[K[K[K
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m mkdir first
+mkdir: невозможно создать каталог «first»: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m s[Kmkdir first[1@s[1@i[1P[1@u[1@d[1@o[1@ 
+[sudo] пароль для Sysoi123u: 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+adduser_r.txt  catalogs_create_u.txt  [0m[01;34mfirst[0m  script_u.txt  terminal_copy_u.txt  text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m cd first
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m mk[K[Ksudo mkdir a[Ksc[Kecond_1
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m sudo mkdir second_1[K2
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m ls
+[0m[01;34msecond_1[0m  [01;34msecond_2[0m
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m cd second_1
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1 $[00m mkdir[K[K[K[K[Ksudo mkdir second[K[K[K[K[K[Kthird_1
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1 $[00m cd third_1/[K
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m touch 1.txt 2.txt[K[K[K[K[K[K
+touch: невозможно выполнить touch для '1.txt': Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m sudo toucj 1[K[K[Kh 1.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m ls
+1.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m lssudo touch 1.txt[1P.txt2.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m ls
+1.txt  2.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m cd ![K~/l[Kpmvb[Ks/lab1;[K'[K/a/[K[Kfisrt/[K
+-su: cd: /home/Sysoi123u/pmvs/lab1/fisrt: Нет такого файла или каталога
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m vf [K[K[Kcd  ~/pmvs/lab1/first
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m ls
+[0m[01;34msecond_1[0m  [01;34msecond_2[0m
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m cd second_2
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2 $[00m sudo mkdir third_2
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2 $[00m sudo mkdir third_2[K3
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2 $[00m ls
+[0m[01;34mthird_2[0m  [01;34mthird_3[0m
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2 $[00m cd third_2
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m sudo toucj [K[Kh 3.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m cd ..
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2 $[00m l[Kcd [K[K[Kcd third_3[K4[K3
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m ls
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m lscd third_3..[Ksudo touch 3.txt[1P.txt4.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m ls
+4.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m св юю[K[K[K[K[Kcd[K[Klssudo touch 4.txtls[Kcd third_3..[Ksudo touch 3.txt[6Pcd third_2ls[Ksudo mkdir third_32[7Pcd second_2ls[Kcd  ~/pmvs/lab1/first[1P~/pmvs/lab1/fisrt ~/pmvs/lab1/first
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first $[00m cd second_1
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1 $[00m cd third_1/[K
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m l[Kln 2.txt ~/pmvs/lab1/first/second_2/[C[1P/1/
+ln: не удалось создать жёсткую ссылку '/home/Sysoi123u/pmvs/lab1/first/second_1/2.txt' => '2.txt': Операция не позволена
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m ln 2.txt ~/pmvs/lab1/first/second_1/[1@s[1@u[1@d[1@o[1@ 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m cd /[K..
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1 $[00m l;[K[Kls
+2.txt  [0m[01;34mthird_1[0m
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1 $[00m cd third_1/[K
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m cd third_1ls[Kcd ..sudo ln 2.txt ~/pmvs/lab1/first/second_1/[C[C[C[C[1P[1@1[1@1[1P[1P[1P[1@1[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/2/[Cthird_3/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_1/third_1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_1/third_1 $[00m cd ~/pmvs/lab1/first/second_2/third_3/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m ls
+1.txt  4.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m lscd ~/pmvs/lab1/first/second_2/third_3/[11@sudo ln 1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@s[C[C[1@~[1@/[1@p[1@m[1@v[1@s[1@/[1@l[1@a[1@b[C[1@1[1@/[1@f[1@i[1@r[1@s[1@t[1@/[1@s[1@e[1@c[1@o[1@n[1@d[1@_[1@2[1@/[1@t[1@h[1@i[1@r[1@d[1@_[1@3[1@/[C[C[C[C[C[C[C[C[C[C[1P[1@1[C[C[C[C[C[C[C[C[C[1P[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4.txt
+ln: не удалось создать символьную ссылку '/home/Sysoi123u/pmvs/lab1/first/second_2/third_3/4.txt': Файл существует
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m sudo ln -s ~/pmvs/lab1/first/second_1/third_1/1.txt ~/pmvs/lab1/first/second_2/third_3/4.txt[1P.txt1.txt_.txts.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m ls
+[0m[01;36m1_s.txt[0m  1.txt  4.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_3[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_3 $[00m exit
+выход
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m exit
+exit
+
+Скрипт выполнен Вс 09 сен 2018 11:30:25

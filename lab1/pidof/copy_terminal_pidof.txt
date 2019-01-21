@@ -1,0 +1,40 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script script_pidof.txt
+Скрипт запущен, файл — script_pidof.txt
+isysoi-P35AP-S lab1 # su sy
+sync               sys                syslog             systemd-bus-proxy  systemd-network    systemd-resolve    systemd-timesync   
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ top
+
+top - 13:06:35 up  3:30,  1 user,  load average: 0,26, 0,45, 0,38
+Tasks: 281 total,   1 running, 275 sleeping,   2 stopped,   3 zombie
+%Cpu(s):   0,0/25,0   25[|||||||||||||||||||||||||                                                                           ]
+КиБ Mem :  8171820 total,  1962424 free,  3842844 used,  2366552 buff/cache
+КиБ Swap:  7999484 total,  7999484 free,        0 used.  3634020 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                   
+11377 Sysoi12+  20   0   42,2m   3,9m   3,2m R 100,0  0,0   0:00.23 top                                                                                       
+    1 root      20   0  181,1m   6,0m   4,0m S   0,0  0,1   0:01.39 systemd                                                                                   
+    2 root      20   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 kthreadd                                                                                  
+    4 root       0 -20    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 kworker/0:0H                                                                              
+    6 root      20   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.02 ksoftirqd/0                                                                               
+    7 root      20   0    0,0m   0,0m   0,0m S   0,0  0,0   0:02.48 rcu_sched                                                                                 
+    8 root      20   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 rcu_bh                                                                                    
+    9 root      rt   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 migration/0                                                                               
+   10 root       0 -20    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 lru-add-drain                                                                             
+   11 root      rt   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.01 watchdog/0                                                                                
+   12 root      20   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 cpuhp/0                                                                                   
+   13 root      20   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.00 cpuhp/1                                                                                   
+   14 root      rt   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.02 watchdog/1                                                                                
+   15 root      rt   0    0,0m   0,0m   0,0m S   0,0  0,0   0:00.09 migration/1                                                                               
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ exit
+exit
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - script_pidof.txt
+
+
+
+isysoi@isysoi-P35AP-S ~ $ pidof top
+11377
+
+

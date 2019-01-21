@@ -1,0 +1,415 @@
+Скрипт запущен Вс 09 сен 2018 10:00:18
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m sudo adduser Sysoi123u --forxc[K[Kce-ban[Kdman[K[K[Kname
+[sudo] пароль для isysoi: 
+Разрешить использование не везде корректных имён.
+Добавляется пользователь «Sysoi123u» ...
+Добавляется новая группа «Sysoi123u» (1001) ...
+Добавляется новый пользователь «Sysoi123u» (1001) в группу «Sysoi123u» ...
+Домашний каталог «/home/Sysoi123u» уже существует. Не копируется из «/etc/skel».
+adduser: Внимание: данный домашний каталог `/home/Sysoi123u' не принадлежит пользователю, которого вы сейчас создаете
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе Sysoi123u
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: Su  Ilya Sysoi
+	Номер комнаты []: 
+	Рабочий телефон []: 
+	Домашний телефон []: 
+	Другое []: 
+Данная информация корректна? [Y/n] Y
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m su - a[KSysoi123u
+Пароль: 
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m ssh St[Kysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+lab1_1.txt  [0m[01;34msysoi[0m  tmp
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m em [Kdi[K[K[K[Krmdir suspo[K[K[Ksoi[K[K[K[Kysoi
+rmdir: failed to remove 'sysoi': Directory not empty
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m rm -r sysoi
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+lab1_1.txt  tmp
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m re[Km tmp
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m rm lav1[K[Kb1_1.txt
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m man pwd
+man: can't set the locale; make sure $LC_* and $LANG are correct
+[?1049h[?1h=PWD(1)                                                                 User Commands                                                                PWD(1)[m
+[m
+[1mNAME[0m[m
+       pwd - print name of current/working directory[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mpwd[0m [[4mOPTION[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print the full filename of the current working directory.[m
+[m
+       [1m-L[0m, [1m--logical[0m[m
+              use PWD from environment, even if it contains symlinks[m
+[m
+       [1m-P[0m, [1m--physical[0m[m
+              avoid all symlinks[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[7m Manual page pwd(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If no option is specified, [1m-P[0m is assumed.[m
+[7m Manual page pwd(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       NOTE:  your shell may have its own version of pwd, which usually supersedes the version described here.  Please refer to your shell's documentation[m
+[7m Manual page pwd(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for details about the options it supports.[m
+[7m Manual page pwd(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page pwd(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Jim Meyering.[m
+[7m Manual page pwd(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page pwd(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page pwd(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report pwd translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page pwd(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page pwd(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2014 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page pwd(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page pwd(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page pwd(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       getcwd(3)[m
+[7m Manual page pwd(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation at: <http://www.gnu.org/software/coreutils/pwd>[m
+[7m Manual page pwd(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) pwd invocation'[m
+[7m Manual page pwd(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.23                                                      March 2015                                                                  PWD(1)[m
+[7m Manual page pwd(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       If no option is specified, [1m-P[0m is assumed.[m
+[23;1H[K[7m Manual page pwd(1) line 25/49 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 24/49 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[23;1H[K[7m Manual page pwd(1) line 23/49 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) pwd invocation'[m
+[7m Manual page pwd(1) line 24/49 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page pwd(1) line 25/49 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.23                                                      March 2015                                                                  PWD(1)[m
+[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page pwd(1) line 26/49 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       If no option is specified, [1m-P[0m is assumed.[m
+[23;1H[K[7m Manual page pwd(1) line 25/49 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 24/49 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[23;1H[K[7m Manual page pwd(1) line 23/49 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[23;1H[K[7m Manual page pwd(1) line 22/49 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 21/49 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[23;1H[K[7m Manual page pwd(1) line 20/49 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 19/49 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              avoid all symlinks[m
+[23;1H[K[7m Manual page pwd(1) line 18/49 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-P[0m, [1m--physical[0m[m
+[23;1H[K[7m Manual page pwd(1) line 17/49 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 16/49 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use PWD from environment, even if it contains symlinks[m
+[23;1H[K[7m Manual page pwd(1) line 15/49 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-L[0m, [1m--logical[0m[m
+[23;1H[K[7m Manual page pwd(1) line 14/49 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 13/49 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print the full filename of the current working directory.[m
+[23;1H[K[7m Manual page pwd(1) line 12/49 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[23;1H[K[7m Manual page pwd(1) line 11/49 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 10/49 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mpwd[0m [[4mOPTION[24m]...[m
+[23;1H[K[7m Manual page pwd(1) line 9/49 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[23;1H[K[7m Manual page pwd(1) line 8/49 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 7/49 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       pwd - print name of current/working directory[m
+[23;1H[K[7m Manual page pwd(1) line 6/49 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[23;1H[K[7m Manual page pwd(1) line 5/49 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[23;1H[K[7m Manual page pwd(1) line 4/49 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMPWD(1)                                                                 User Commands                                                                PWD(1)[m
+[23;1H[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page pwd(1) line 1/49 39% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m mkdir sysoi
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m cd su[Kysoi/[K
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m who
+pi       tty1         Sep  9 07:40
+pi       :0           Sep  9 07:40 (:0)
+Sysoi123r pts/2        Sep  9 08:01 (192.168.56.1)
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m wrie[Kte pi
+write: pi has messages disabled
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m write Sysoi123r
+
+Message from Sysoi123r@raspberry on pts/2 at 08:04 ...
+Hi, Ilya
+Hi, Ilya
+EOF
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m tee textTee[K[K[K_tee_file.txt
+test info  dop 
+test indo
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m car [K[Kt text_tee_file.txt 
+test indo
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m vi text_tee_file.txt 
+[?1049h[?1h=[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"text_tee_file.txt" 1 line, 10 characters[1;1Htest indo
+[94m~                                                                                                                                                             [3;1H~                                                                                                                                                             [4;1H~                                                                                                                                                             [5;1H~                                                                                                                                                             [6;1H~                                                                                                                                                             [7;1H~                                                                                                                                                             [8;1H~                                                                                                                                                             [9;1H~                                                                                                                                                             [10;1H~                                                                                                                                                             [11;1H~                                                                                                                                                             [12;1H~                                                                                                                                                             [13;1H~                                                                                                                                                             [14;1H~                                                                                                                                                             [15;1H~                                                                                                                                                             [16;1H~                                                                                                                                                             [17;1H~                                                                                                                                                             [18;1H~                                                                                                                                                             [19;1H~                                                                                                                                                             [20;1H~                                                                                                                                                             [21;1H~                                                                                                                                                             [22;1H~                                                                                                                                                             [1;1H[?12l[?25h[mtest indn[?25l$[?12l[?25h[?25lf[?12l[?25h[?25l[1;22r[1;1H[L[1;23r[1;1HC[23;1H[K[1;2H[?12l[?25h[?25l[1;22r[1;1H[L[1;23r[1;1HC[?12l[?25h[?25l[1;22r[1;1H[L[1;23r[1;1HB[?12l[?25h
+
+
+[3;1H[?25l[3;22r[22;1H
+[1;23r[22;1H[94m~                                                                                                                                                             [3;1H[?12l[?25h[2;1H[?25l[2;22r[m[22;1H
+[1;23r[22;1H[94m~                                                                                                                                                             [2;1H[?12l[?25h[1;1H[?25l[1;22r[m[22;1H
+[1;23r[22;1H[94m~                                                                                                                                                             [1;1H[?12l[?25h[7C[?25l[23;1H[m:[?12l[?25hqw[?25l[97m[41mE492: Not an editor command: qw[1;8H[?12l[?25h[mf[?25l[23;1H[K[23;1H:[?12l[?25h:[?25l[23;2H[K[23;2H[?12l[?25h qr[?25l[23;4H[K[23;4H[?12l[?25h[?25l[23;3H[K[23;3H[?12l[?25h[?25l[?12l[?25h q[?25l[97m[41mE37: No write since last change (add ! to override)[1;9H[?12l[?25h[?25l[m[23;1H[K[23;1H:[?12l[?25h:[?25l[23;2H[K[23;2H[?12l[?25h w ![?25l[1;9H[?12l[?25h[?25l[23;1H[K[23;1H:[?12l[?25h:[?25l[23;2H[K[23;2H[?12l[?25h wq[?25l"text_tee_file.txt" 1 line, 10 characters written
+[?1l>[?12l[?25h[?1049l]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m vi text_tee_file.txt [1@cat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+test info
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m man[K[K[Kinfo cp
+-bash: info: command not found
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m man cp
+man: can't set the locale; make sure $LC_* and $LANG are correct
+[?1049h[?1h=CP(1)                                                                  User Commands                                                                 CP(1)[m
+[m
+[1mNAME[0m[m
+       cp - copy files and directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--archive[0m[m
+              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
+[m
+       [1m--attributes-only[0m[m
+              don't copy the file data, just the attributes[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m man i[Kunlink
+man: can't set the locale; make sure $LC_* and $LANG are correct
+[?1049h[?1h=UNLINK(1)                                                              User Commands                                                             UNLINK(1)[m
+[m
+[1mNAME[0m[m
+       unlink - call the unlink function to remove the specified file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1munlink[0m [4mFILE[24m[m
+       [1munlink[0m [4mOPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Call the unlink function to remove the specified FILE.[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mAUTHOR[0m[m
+       Written by Michael Stone.[m
+[m
+[1mREPORTING[0m [1mBUGS[0m[m
+       GNU coreutils online help: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page unlink(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m c[[Kp text_tee_file.txt 
+cp: missing destination file operand after 'text_tee_file.txt'
+Try 'cp --help' for more information.
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m cp text_tee_file.txt ![K~/
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m cd ..
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;34msysoi[0m  text_tee_file.txt
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m unlink r[Ktext_tee_file.txt [K
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;34msysoi[0m
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m [K]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m cd[K[Kls
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m mkdit[Kr pmvc[Ks
+mkdir: невозможно создать каталог «pmvs»: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m c[Ksudo mkdir pmvs
+[sudo] пароль для Sysoi123u: 
+Пользователю Sysoi123u запрещено выполнять '/bin/mkdir pmvs' с правами root на isysoi-P35AP-S.
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m su - Sysoi[K[K[K[K[K
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m ls
+[0m[01;34mAndroid[0m  [01;34mDesktop[0m
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m exit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m ^C
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m su - do mkdir pmvs
+[sudo] пароль для Sysoi123u: 
+Пользователю Sysoi123u запрещено выполнять '/bin/mkdir pmvs' с правами root на isysoi-P35AP-S.
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sudo mkdir pmvs - [Kdo mkdir pmvs - [Kdo mkdir pmvs[Ksudo mkdir pmvs - [Kdo mkdir pmvs[5P[C[C[C[C[C[C[C[C[C[Cls[Kmkdir pmvs
+mkdir: невозможно создать каталог «pmvs»: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m pwd
+/home/Sysoi123u
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m ^C
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m sudo s[K[K[K[K[K[Ksu -
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m su[K[Kcd /home/Sysoi123u
+]0;root@isysoi-P35AP-S /home/Sysoi123u[01;31misysoi-P35AP-S[01;34m Sysoi123u #[00m mkdir pmc[Kvs
+]0;root@isysoi-P35AP-S /home/Sysoi123u[01;31misysoi-P35AP-S[01;34m Sysoi123u #[00m ls
+[0m[01;34mpmvs[0m
+]0;root@isysoi-P35AP-S /home/Sysoi123u[01;31misysoi-P35AP-S[01;34m Sysoi123u #[00m exit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m ls
+[0m[01;34mpmvs[0m
+]0;Sysoi123u@isysoi-P35AP-S ~[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~ $[00m cd pmvs
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs $[00m git clone [K[K[K[K[K[Kinit[K[K[K[K[K[K[K[Kcd[K[Kmkdir lab1
+mkdir: невозможно создать каталог «lab1»: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs $[00m mkdir lab1[Kmkdir lab1[3Pcd pmvsls[Ksu -[1Ppwdsu -
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m exit[2Plsmkdir pmvscd /home/Sysoi123u
+]0;root@isysoi-P35AP-S /home/Sysoi123u[01;31misysoi-P35AP-S[01;34m Sysoi123u #[00m cd pmvs/
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs[01;31misysoi-P35AP-S[01;34m pmvs #[00m mkdir lab1
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs[01;31misysoi-P35AP-S[01;34m pmvs #[00m exit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs $[00m su -mkdir lab1[3Pcd pmvsls[Ksu -[2Plscd pmvs[K[K[K[Klab1
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m git init
+/home/Sysoi123u/pmvs/lab1/.git: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m si[Ku _
+Отсутствует passwd-запись для пользователя «_»
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m su _[K-
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m exitmkdir lab1[2Pcd pmvs//home/Sysoi123u[10Ppmvs//home/Sysoi123u.[[K[K][K\[K/pmvs.[K/lab1
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git init
+Инициализирован пустой репозиторий Git в /home/Sysoi123u/pmvs/lab1/.git/
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git add[K[K[K[K remote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m exit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m scp pi@re[K[K1[K[K[K[KSysoi123r@192.168.56.101:~/su[Ks[Kysp[Koi/[K/text_tt[Kee_file [K/[K.txt /home/Sysoi123u/pmvs/lab1/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yest 
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+/home/Sysoi123u/pmvs/lab1//text_tee_file.txt: Permission denied
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m scp Sysoi123r@192.168.56.101:~/sysoi/text_tee_file.txt /home/Sysoi123u/pmvs/lab1/[C[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1@p[1@i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/l /home/Sysoi123u/pmvs/lab1/a /home/Sysoi123u/pmvs/lab1/b /home/Sysoi123u/pmvs/lab1/1 /home/Sysoi123u/pmvs/lab1/. /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/r /home/Sysoi123u/pmvs/lab1/. /home/Sysoi123u/pmvs/lab1/t /home/Sysoi123u/pmvs/lab1/e /home/Sysoi123u/pmvs/lab1/[1P /home/Sysoi123u/pmvs/lab1/x /home/Sysoi123u/pmvs/lab1/t /home/Sysoi123u/pmvs/lab1/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+pi@192.168.56.101's password: 
+Permission denied, please try again.
+pi@192.168.56.101's password: 
+/home/Sysoi123u/pmvs/lab1//lab1r.txt: Permission denied
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m scp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21@Sysoi123r@192.168.56.101:~/sysoi/text_tee_file[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Ppi@192.168.56.101:~/lab1r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksu -
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m exitgit remote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kremote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[Kscp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.56.101' (ECDSA) to the list of known hosts.
+pi@192.168.56.101's password: 
+lab1r.txt                                                                                                                     0%    0     0.0KB/s   --:-- ETAlab1r.txt                                                                                                                   100% 1598     1.6KB/s   00:00    
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m scp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgit remote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kremote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp Sysoi123r@192.168.56.101:~/sysoi/text_tee_file.txt /home/Sysoi123u/pmvs/lab1/
+Sysoi123r@192.168.56.101's password: 
+text_tee_file.txt                                                                                                             0%    0     0.0KB/s   --:-- ETAtext_tee_file.txt                                                                                                           100%   10     0.0KB/s   00:00    
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m erx[K[Kxit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m g[Kgit status
+На ветке master
+
+Начальный коммит
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+
+	[31mlab1r.txt[m
+	[31mtext_tee_file.txt[m
+
+ничего не добавлено в коммит, но есть неотслеживаемые файлы (используйте «git add», чтобы отслеживать их)
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m git add[K[K[K[K[K[K[Kmv lab1r.text adduserr[K_t[Kr.txt
+mv: не удалось выполнить stat для 'lab1r.text': Нет такого файла или каталога
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m mv lab1r.text adduser_r.txt[1P
+mv: невозможно переместить 'lab1r.txt' в 'adduser_r.txt': Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m su -
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m exitscp Sysoi123r@192.168.56.101:~/sysoi/text_tee_file.txt /home/Sysoi123u/pmvs/lab1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Ppi@192.168.56.101:~/lab1r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgit remote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kcd /home/Sysoi123u/pmvs/lab1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcd /home/Sysoi123u/pmvs/lab1
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m mv lab1r.txt adduser_r.txt
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m ls
+adduser_r.txt  text_tee_file.txt
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m exit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m git ad[K[Kclo[K[K[Kadd .
+fatal: Unable to create '/home/Sysoi123u/pmvs/lab1/.git/index.lock': Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m su -
+Пароль: 
+]0;root@isysoi-P35AP-S ~[01;31misysoi-P35AP-S[01;34m ~ #[00m exit[2Plsmv lab1r.txt adduser_r.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /home/Sysoi123u/pmvs/lab1
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m f[Kgit add .
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git commit ''[K[K-m ''a'd'd' 'a'd'd'u's'e'r' 'f'i'l'e'[1P'[1P'[1P'[1P's'c'r'i'p't' 'f'i'l'e' 'i'n' 'r'a's'b'[1P'p'b'e'r'r'y',' 'a'd'd'[1P'[1P'[1P't'e'e' 'f'i'l'e'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@isysoi-P35AP-S.(none)')
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git config --global user.email ""1"4"i"l"y"a"1"3"2"2"[1P"[1P"[1P"2"3"3"[1P"2"2"@"g"m"a"i"l"."c"m"[1P"o"m"
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git config --global user.email "14ilya12322@gmail.com"[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kname ::[K[K""[K[K;[K""I"l"y"a" "S"y"s"o"i"
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git config --global user.name "Ilya Sysoi"email "14ilya12322@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kcommit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pnfig --global user.email "14ilya12322@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pnfig --global user.email "14ilya12322@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'add adduser script file in raspberry, tee file'
+[master (корневой коммит) 720638d] add adduser script file in raspberry, tee file
+ 2 files changed, 38 insertions(+)
+ create mode 100644 adduser_r.txt
+ create mode 100644 text_tee_file.txt
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git pull[K[K[Kush -u origin master
+The authenticity of host 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git push -u origin master
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git remote
+origin
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git remove [K[K[K[K[K[K[Kremote remove origin
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git remote remove origin[K
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git remote remove origin[K remove origin[K[K[K[K[K[K[K[K[K[K[K[K[K[K add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git push -u origin master
+Username for 'https://github.com': isysoi3
+Password for 'https://isysoi3@github.com': 
+Подсчет объектов: 4, готово.
+Delta compression using up to 4 threads.
+Сжатие объектов:  33% (1/3)   Сжатие объектов:  66% (2/3)   Сжатие объектов: 100% (3/3)   Сжатие объектов: 100% (3/3), готово.
+Запись объектов:  25% (1/4)   Запись объектов:  50% (2/4)   Запись объектов:  75% (3/4)   Запись объектов: 100% (4/4)   Запись объектов: 100% (4/4), 964 bytes | 0 bytes/s, готово.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+ * [new branch]      master -> master
+Ветка master отслеживает внешнюю ветку master из origin.
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m to[K[Kt[Ktouch script_)[Ku.txt
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m nano script_u.txt 
+[?1049h[1;21r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[19;72H(B[0;7m[ Чтение файла ][3d(B[m[19;69H(B[0;7m[ Прочитано 0 строк ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                       Файл: script_u.txt                                                                                     [20;1H^G(B[m Помощь[20;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[20;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[21d(B[0;7m^X(B[m Выход[21;18H(B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[21;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[3d[1;150H(B[0;7mИзменён[3d(B[mDelta compression using up to 4 threads.[4dСжатие объектов: 100% (3/3), готово.[5dЗапись объектов: 100% (4/4), 964 bytes | 0 bytes/s, готово.[6dTotal 4 (delta 0), reused 0 (delta 0)[7dTo https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[8d * [new branch][22Gmaster -> master[9dВетка master отслеживает внешнюю ветку master из origin.[10disysoi-P35AP-S lab1 #[19d[K[11d[8d[5d[2;18r[2;1H[9T[1;21r[3;1Hisysoi-P35AP-S lab1 # git remote[4dorigin[5disysoi-P35AP-S lab1 # git remote remove origin[6disysoi-P35AP-S lab1 # git remote[7disysoi-P35AP-S lab1 # git remote add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[8disysoi-P35AP-S lab1 # git push -u origin master[9dUsername for 'https://github.com': isysoi3[10dPassword for 'https://isysoi3@github.com':[11dПодсчет объектов: 4, готово.[8d[5d[2;18r[2;1H[9T[1;21r[4;1HPlease make sure you have the correct access rights[5dand the repository exists.[6disysoi-P35AP-S lab1 # git push -u origin master[7dPermission denied (publickey).[8dfatal: Could not read from remote repository.[10dPlease make sure you have the correct access rights[11dand the repository exists.[9d[A[5d[3d create mode 100644 adduser_r.txt[4d create mode 100644 text_tee_file.txt[K[5disysoi-P35AP-S lab1 # git push -u origin master[6dThe authenticity of host 'github.com (192.30.253.112)' can't be established.[7dRSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.[8dAre you sure you want to continue connecting (yes/no)? yes[9dWarning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.[10dPermission denied (publickey).[K[11dfatal: Could not read from remote repository.[12d[K[13dPlease make sure you have the correct access rights[14dand the repository exists.[K[15dpush -u origin master[16dPermission denied (publickey).[K[17dfatal: Could not read from remote repository.[K[18d[K[11d[9d[A[A[5d[A[A[2;18r[2;1H[9T[1;21r[3;1Hto set your account's default identity.[4dOmit --global to set the identity only in this repository.[6dfatal: unable to auto-detect email address (got 'root@isysoi-P35AP-S.(none)')[7disysoi-P35AP-S lab1 # git config --global user.email "14ilya12322@gmail.com"[8disysoi-P35AP-S lab1 # git config --global user.name "Ilya Sysoi"[9disysoi-P35AP-S lab1 # git commit -m 'add adduser script file in raspberry, tee file'[10d[master (корневой коммит) 720638d] add adduser script file in raspberry, tee file[11d 2 files changed, 38 insertions(+)[8d[5d[2;18r[2;1H[9T[1;21r[3;1Hisysoi-P35AP-S lab1 # git commit -m 'add adduser script file in raspberry, tee file'[5d*** Please tell me who you are.[7dRun[9dgit config --global user.email "you@example.com"[10;3Hgit config --global user.name "Your Name"[11d[8d[A[A[A[2;18r[2;1H[9T[1;21r[3;1Hadduser_r.txt  text_tee_file.txt[4disysoi-P35AP-S lab1 # exit[5dвыход[6dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git add .[7dfatal: Unable to create '/home/Sysoi123u/pmvs/lab1/.git/index.lock': Отказано в доступе[8dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -[9dПароль:[10disysoi-P35AP-S ~ # cd /home/Sysoi123u/pmvs/lab1[11disysoi-P35AP-S lab1 # git add .[8d[5d[7;19r[19;1H
+[1;21r[3;1HSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ mv lab1r.text adduser_r.txt[4dmv: не удалось выполнить stat для 'lab1r.text': Нет такого файла или каталога[5dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ mv lab1r.txt adduser_r.txt[6dmv: невозможно переместить 'lab1r.txt' в 'adduser_r.txt': Отказано в доступе[10;23Hmv lab1r.txt adduser_r.txt[11;23Hls[K[12dadduser_r.txt  text_tee_file.txt[13disysoi-P35AP-S lab1 # exit[K[14dвыход[15dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git add .[16dfatal: Unable to create '/home/Sysoi123u/pmvs/lab1/.git/index.lock': Отказано в доступе[17dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -[K[18dПароль:[11d[8d[5d[8d[11d[14d[17d[3dadduser_r.txt  text_tee_file.txt[K[4disysoi-P35AP-S lab1 # exit[K[5dвыход[K[6dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git add .[K[7dfatal: Unable to create '/home/Sysoi123u/pmvs/lab1/.git/index.lock': Отказано в доступе[8dSysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -[9dПароль:[K[10;16H~ # cd /home/Sysoi123u/pmvs/lab1[K[11;23Hgit add .[12disysoi-P35AP-S lab1 # git commit -m 'add adduser script file in raspberry, tee file'[13d[K[14d*** Please tell me who you are.[15d[K[16dRun[K[17d[K[18d  git config --global user.email "you@example.com"[11d[14d[17d[2;19r[19;1H[9S[1;21r[2;1H[K[10d  git config --global user.name "Your Name"[12dto set your account's default identity.[13dOmit --global to set the identity only in this repository.[15dfatal: unable to auto-detect email address (got 'root@isysoi-P35AP-S.(none)')[16disysoi-P35AP-S lab1 # git config --global user.email "14ilya12322@gmail.com"[17disysoi-P35AP-S lab1 # git config --global user.name "Ilya Sysoi"[18disysoi-P35AP-S lab1 # git commit -m 'add adduser script file in raspberry, tee file'[11d[14d[17d[2;19r[19;1H[9S[1;21r[10;1H[master (корневой коммит) 720638d] add adduser script file in raspberry, tee file[11d 2 files changed, 38 insertions(+)[12d create mode 100644 adduser_r.txt[13d create mode 100644 text_tee_file.txt[14disysoi-P35AP-S lab1 # git push -u origin master[15dThe authenticity of host 'github.com (192.30.253.112)' can't be established.[16dRSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.[17dAre you sure you want to continue connecting (yes/no)? yes[18dWarning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.[11d[14d[17d[3;19r[19;1H[9S[1;21r[10;1HPermission denied (publickey).[11dfatal: Could not read from remote repository.[13dPlease make sure you have the correct access rights[14dand the repository exists.[15disysoi-P35AP-S lab1 # git push -u origin master[16dPermission denied (publickey).[17dfatal: Could not read from remote repository.[11d[14d[17d[3d[K[4dPlease make sure you have the correct access rights[5dand the repository exists.[K[6disysoi-P35AP-S lab1 # git push -u origin master[K[7dPermission denied (publickey).[K[8dfatal: Could not read from remote repository.[K[9d[K[10dPlease make sure you have the correct access rights[11dand the repository exists.[K[12disysoi-P35AP-S lab1 # git remote[13dorigin[K[14disysoi-P35AP-S lab1 # git remote remove origin[15;27Hremote[K[16disysoi-P35AP-S lab1 # git remote add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[17disysoi-P35AP-S lab1 # git push -u origin master[18dUsername for 'https://github.com': isysoi3[11d[14d[17d[3;19r[19;1H[9S[1;21r[10;1HPassword for 'https://isysoi3@github.com':[11dПодсчет объектов: 4, готово.[12dDelta compression using up to 4 threads.[13dСжатие объектов: 100% (3/3), готово.[14dЗапись объектов: 100% (4/4), 964 bytes | 0 bytes/s, готово.[15dTotal 4 (delta 0), reused 0 (delta 0)[16dTo https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[17d * [new branch][22Gmaster -> master[18dВетка master отслеживает внешнюю ветку master из origin.[10d[11d[14d[17d[2;19r[19;1H[9S[1;21r[2;1H[K[10disysoi-P35AP-S lab1 #[11d[12d[19d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [20;1H Y(B[m Да[K[21d(B[0;7m N(B[m Нет  [21;17H(B[0;7m^C(B[m Отмен[C[K[19;66H[?25l[73G[1K (B[0;7m[ Отменено ](B[m[K[12d[?12l[?25h[20d(B[0;7m^G(B[m Помощь[20;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[20;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[21d(B[0;7m^X(B[m Выход[21;17H (B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[21;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[12d[19d(B[0;7mИмя файла для записи: script_u.txt                                                                                                                            [20;18H(B[m[14X[20;32H(B[0;7mM-D(B[m Формат DOS[52G           (B[0;7mM-A(B[m Доп. в начало[14X[20;94H(B[0;7mM-B(B[m Резерв. копия[K[21;2H(B[0;7mC(B[m Отмена[21;18H[14X[21;32H(B[0;7mM-M(B[m Формат Mac[52G           (B[0;7mM-P(B[m Доп. в конец[86G        (B[0;7m^T(B[m К файлам[K[19;35H[?25l[19;68H[39;49m(B[m[1K (B[0;7m[ Записано 265 строк ](B[m[K[12d[?12l[?25h[1;150H(B[0;7m       [20;18H^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[21;2H(B[0;7mX(B[m Выход [21;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[12d[19d[J[21;158H[21;1H[?1049l[?1l>]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m nano script_u.txt touch script_u.txtgit push -u origin masterremote add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K remove origin[Kpush -u origin mastercommit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pnfig --global user.name "Ilya Sysoi"email "14ilya12322@gmail.com"[12Pname "Ilya Sysoi"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pnfig --global user.name "Ilya Sysoi"email "14ilya12322@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[K
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git add .nano script_u.txt touch script_u.txtgit push -u origin masterremote add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K remove origin[Kpush -u origin mastercommit -m 'add adduser script file in raspberry, tee file'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pnfig --global user.name "Ilya Sysoi"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmmit -m 'add adduser script file in raspberry, tee file'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P's'c'r'i'p't' 'f'i'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P't'e'r'm'i'n'a'l' 'c'o'p'y' 'f'i'l'e' 'f'o'r'm'[1P'[1P'[1P'r'o'm' 'u'n'[1P'b'u'n't'y'[1P'i'[1P'[1P'[1P'[1P'[1P'[1P'[1P' '[1P'[1P'm' 'u'[C
+[master 1e32885] add terminal copy file from u
+ 1 file changed, 265 insertions(+)
+ create mode 100644 script_u.txt
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m git commit -m 'add terminal copy file from u'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Knano script_u.txt touch script_u.txtgit push -u origin masterremote add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin master[K
+Username for 'https://github.com': isysoi3
+Password for 'https://isysoi3@github.com': 
+Подсчет объектов: 3, готово.
+Delta compression using up to 4 threads.
+Сжатие объектов:  33% (1/3)   Сжатие объектов:  66% (2/3)   Сжатие объектов: 100% (3/3)   Сжатие объектов: 100% (3/3), готово.
+Запись объектов:  33% (1/3)   Запись объектов:  66% (2/3)   Запись объектов: 100% (3/3)   Запись объектов: 100% (3/3), 3.60 KiB | 0 bytes/s, готово.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+   720638d..1e32885  master -> master
+Ветка master отслеживает внешнюю ветку master из origin.
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m exit
+выход
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m r[Kezs[K[Kxit
+выход
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m exit
+exit
+
+Скрипт выполнен Вс 09 сен 2018 10:39:25

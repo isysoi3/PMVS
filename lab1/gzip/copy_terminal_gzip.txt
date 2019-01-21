@@ -1,0 +1,69 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script  script_gzip.txt
+Скрипт запущен, файл — script_gzip.txt
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+adduser_r.txt                        copy_terminal_fuser.txt   first       script_add_group_u.txt        script_gzip.txt   script_u.txt
+copy_terminal_add_groups.txt         copy_terminal_pidof.txt   ps_log      script_catalogs_create_u.txt  script_mc.txt     terminal_copy_u.txt
+copy_terminal_catalogs_create_u.txt  copy_terminal_ps_log.txt  ps_log.txt  script_fuser.txt              script_pidof.txt  text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cd first/second_2/third_2/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ ls
+3.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ gzip -c 3.txt > 3.txt.gz
+bash: 3.txt.gz: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ sudo !!
+sudo gzip -c 3.txt > 3.txt.gz
+bash: 3.txt.gz: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ su
+Пароль: 
+isysoi-P35AP-S third_2 #  gzip -c 3.txt > 3.txt.gz
+isysoi-P35AP-S third_2 # ls
+3.txt  3.txt.gz
+isysoi-P35AP-S third_2 # exit
+exit
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ ls
+3.txt  3.txt.gz
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ sudo gzip -t 3.txt.gz
+[sudo] пароль для Sysoi123u: 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ ls
+3.txt  3.txt.gz
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ scp 3.txt.gz Sysoi123r@192.168.56.101:~
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+3.txt.gz                                                                                                                    100%   36     0.0KB/s   00:00    
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 08:01:40 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ ls
+3.txt.gz  sysoi
+Sysoi123r@raspberry:~ $ gzip -d 3.txt.gz
+Sysoi123r@raspberry:~ $ ls
+3.txt  sysoi
+Sysoi123r@raspberry:~ $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2 $ exit
+exit
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - script_gzip.txt
+

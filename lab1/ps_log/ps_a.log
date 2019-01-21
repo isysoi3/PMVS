@@ -1,0 +1,21 @@
+  PID TTY      STAT   TIME COMMAND
+ 1224 tty7     Ss+    2:55 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 1708 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+ 2601 pts/0    Ss     0:00 bash
+ 4639 pts/2    Ss+    0:00 bash
+ 6208 pts/0    S      0:00 su -
+ 6216 pts/0    S      0:00 -su
+ 6403 pts/0    S      0:00 su - Sysoi123u
+ 6411 pts/0    S      0:00 -su
+ 8061 pts/0    T      0:00 git push origin
+ 8062 pts/0    T      0:00 git-remote-https origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+10033 pts/1    Ss+    0:00 bash
+10757 pts/0    S+     0:00 sudo script ps_log.txt
+10758 pts/0    S+     0:00 script ps_log.txt
+10759 pts/3    Ss     0:00 bash -i
+10775 pts/3    S      0:00 su Sysoi123u
+10783 pts/3    S      0:00 bash
+11040 pts/3    S      0:00 su
+11048 pts/3    S      0:00 bash
+11076 pts/3    S+     0:00 sudo ps a
+11077 pts/3    R+     0:00 ps a

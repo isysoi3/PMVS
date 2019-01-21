@@ -1,0 +1,39 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script  script_fuser.txt
+Скрипт запущен, файл — script_fuser.txt
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ nam fuser
+Программа 'nam' на данный момент не установлена. Вы можете установить её, выполнив:
+sudo apt install nam
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ man fuser
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cd ps_log/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ fuser ps_a.log
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ fuser -v ps_a.log
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ fuser -v .
+                     ПОЛЬЗ-ЛЬ    PID ДОСТУП КОМАНДА
+/home/Sysoi123u/pmvs/lab1/ps_log:
+                     Sysoi123u  11526 ..c.. bash
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ fuser -v ps_a.log
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ open ps_a.log
+Не удалось получить файловый дескриптор, указывающий на консоль
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ sudo !!
+sudo open ps_a.log
+[sudo] пароль для Sysoi123u: 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log $ cd ..
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+adduser_r.txt                        copy_terminal_pidof.txt   ps_log                  script_catalogs_create_u.txt  script_u.txt
+copy_terminal_add_groups.txt         copy_terminal_ps_log.txt  ps_log.txt              script_fuser.txt              terminal_copy_u.txt
+copy_terminal_catalogs_create_u.txt  first                     script_add_group_u.txt  script_pidof.txt              text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ fuser -v .
+                     ПОЛЬЗ-ЛЬ    PID ДОСТУП КОМАНДА
+/home/Sysoi123u/pmvs/lab1:
+                     Sysoi123u   6411 ..c.. bash
+                     Sysoi123u   8061 ..c.. git
+                     Sysoi123u   8062 ..c.. git-remote-http
+                     Sysoi123u  11526 ..c.. bash
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ fuser -v adduser_r.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ exit
+exit
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - script_fuser.txt
+

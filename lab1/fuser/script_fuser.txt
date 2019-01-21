@@ -1,0 +1,130 @@
+Скрипт запущен Вс 09 сен 2018 13:09:04
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m su Su[Kysoi123u 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m nam g[Kfuser
+Программа 'nam' на данный момент не установлена. Вы можете установить её, выполнив:
+sudo apt install nam
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m nam fuser[C[C[1P[1P[Ca fusern fuser
+[?1049h[?1h=FUSER(1)                                                               User Commands                                                              FUSER(1)[m
+[m
+[1mNAME[0m[m
+       fuser - identify processes using files or sockets[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfuser[0m [[1m-fuv[0m] [[1m-a[0m|[1m-s[0m] [[1m-4[0m|[1m-6[0m] [[1m-c[0m|[1m-m[0m|[1m-n[0m [4mspace[24m] [ [1m-k[0m [[1m-i[0m] [[1m-M[0m] [[1m-w[0m] [[1m-[0m[4mSIGNAL[24m] ] [4mname[24m ...[m
+       [1mfuser[0m -l[m
+       [1mfuser[0m -V[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mfuser[0m  displays the PIDs of processes using the specified files or file systems.  In the default display mode, each file name is followed by a let‐[m
+       ter denoting the type of access:[m
+[m
+              [1mc[0m      current directory.[m
+              [1me[0m      executable being run.[m
+              [1mf[0m      open file.  [1mf[0m is omitted in default display mode.[m
+              [1mF[0m      open file for writing.  [1mF[0m is omitted in default display mode.[m
+              [1mr[0m      root directory.[m
+              [1mm[0m      mmap'ed file or shared library.[m
+[7m Manual page fuser(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mfuser[0m returns a non-zero return code if none of the specified files is accessed or in case of a fatal error.  If  at  least  one  access  has  been[m
+[7m Manual page fuser(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       found, [1mfuser[0m returns zero.[m
+[7m Manual page fuser(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       In  order to look up processes using TCP and UDP sockets, the corresponding name space has to be selected with the [1m-n[0m option. By default [1mfuser[0m will[m
+[7m Manual page fuser(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       look in both IPv6 and IPv4 sockets.  To change the default, behavior, use the [1m-4[0m and [1m-6[0m options.  The socket(s) can be specified by the  local  and[m
+[7m Manual page fuser(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       remote port, and the remote address.  All fields are optional, but commas in front of missing fields must be present:[m
+[7m Manual page fuser(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m[[0m[4mlcl_port[24m[1m][[0m,[1m[[0m[4mrmt_host[24m[1m][[0m,[1m[[0m[4mrmt_port[24m[1m]]][0m[m
+[7m Manual page fuser(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Either symbolic or numeric values can be used for IP addresses and port numbers.[m
+[7m Manual page fuser(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mfuser[0m outputs only the PIDs to stdout, everything else is sent to stderr.[m
+[7m Manual page fuser(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page fuser(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[0m, [1m--all[0m[m
+[7m Manual page fuser(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Show all files specified on the command line.  By default, only files that are accessed by at least one process are shown.[m
+[7m Manual page fuser(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m     Same as -m option, used for POSIX compatibility.[m
+[7m Manual page fuser(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m     Silently ignored, used for POSIX compatibility.[m
+[7m Manual page fuser(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--kill[0m[m
+[7m Manual page fuser(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Kill  processes  accessing the file.  Unless changed with [1m-[0m[4mSIGNAL[24m, SIGKILL is sent.  An [1mfuser[0m process never kills itself, but may kill other[m
+[7m Manual page fuser(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mfuser[0m processes.  The effective user ID of the process executing [1mfuser[0m is set to its real user ID before attempting to kill.[m
+[7m Manual page fuser(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--interactive[0m[m
+[7m Manual page fuser(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Ask the user for confirmation before killing a process. This option is silently ignored if [1m-k[0m is not present too.[m
+[7m Manual page fuser(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--list-signals[0m[m
+[7m Manual page fuser(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              List all known signal names.[m
+[7m Manual page fuser(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m [4mNAME[24m, [1m--mount[0m [4mNAME[24m[m
+[7m Manual page fuser(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mNAME[24m specifies a file on a mounted file system or a block device that is mounted.  All processes accessing files on  that  file  system  are[m
+[7m Manual page fuser(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              listed.   If  a  directory  file  is  specified, it is automatically changed to [4mNAME[24m/.  to use any file system that might be mounted on that[m
+[7m Manual page fuser(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              directory.[m
+[7m Manual page fuser(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[0m, [1m--ismountpoint[0m[m
+[7m Manual page fuser(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Request will be fulfilled only if [4mNAME[24m specifies a mountpoint.  This is an invaluable seatbelt which prevents you from killing  the  machine[m
+[7m Manual page fuser(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              if [4mNAME[24m happens to not be a filesystem.[m
+[7m Manual page fuser(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m     Kill only processes which have write access.  This option is silently ignored if [1m-k[0m is not present too.[m
+[7m Manual page fuser(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m [4mSPACE[24m, [1m--namespace[0m [4mSPACE[24m[m
+[7m Manual page fuser(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Select  a  different  name space.  The name spaces [1mfile[0m (file names, the default), [1mudp[0m (local UDP ports), and [1mtcp[0m (local TCP ports) are sup‐[m
+[7m Manual page fuser(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ported.  For ports, either the port number or the symbolic name can  be  specified.   If  there  is  no  ambiguity,  the  shortcut  notation[m
+[7m Manual page fuser(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [4mname[24m[1m/[0m[4mspace[24m (e.g. [4m80[24m[1m/[0m[4mtcp[24m) can be used.[m
+[7m Manual page fuser(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--silent[0m[m
+[7m Manual page fuser(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Silent operation.  [1m-u[0m and [1m-v[0m are ignored in this mode.  [1m-a[0m must not be used with [1m-s[0m.[m
+[7m Manual page fuser(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-[0m[4mSIGNAL[24m[m
+[7m Manual page fuser(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Use  the  specified signal instead of SIGKILL when killing processes.  Signals can be specified either by name (e.g.  [1m-HUP[0m)[1mor[0mby number (e.g.[m
+[7m Manual page fuser(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1m-1[0m).  This option is silently ignored if the [1m-k[0m option is not used.[m
+[7m Manual page fuser(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--user[0m[m
+[7m Manual page fuser(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Append the user name of the process owner to each PID.[m
+[7m Manual page fuser(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--verbose[0m[m
+[7m Manual page fuser(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Verbose mode.  Processes are shown in a [1mps[0m-like style.  The fields PID, USER and COMMAND are similar to [1mps[0m.  ACCESS shows  how  the  process[m
+[7m Manual page fuser(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              accesses  the file.  Verbose mode will also show when a particular file is being access as a mount point, knfs export or swap file.  In this[m
+[7m Manual page fuser(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              case [1mkernel[0m is shown instead of the PID.[m
+[7m Manual page fuser(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[0m, [1m--version[0m[m
+[7m Manual page fuser(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display version information.[m
+[7m Manual page fuser(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-4[0m, [1m--ipv4[0m[m
+[7m Manual page fuser(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Search only for IPv4 sockets.  This option must not be used with the [1m-6[0m option and only has an effect with the tcp and udp namespaces.[m
+[7m Manual page fuser(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page fuser(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-6[0m, [1m--ipv6[0m[m
+[7m Manual page fuser(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Search only for IPv6 sockets.  This option must not be used with the [1m-4[0m option and only has an effect with the tcp and udp namespaces.[m
+[7m Manual page fuser(1) line 73 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m cd ps_log/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m fuser lof[K[K[Kps_a.log
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m fuser ps_a.log[C ps_a.log- ps_a.log[C ps_a.log[1Pps_a.logv ps_a.log[C ps_a.log[1Pps_a.log
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m fuser -v ps_a.log[K[K[K[K[K[K[K[K.
+                     ПОЛЬЗ-ЛЬ    PID ДОСТУП КОМАНДА
+/home/Sysoi123u/pmvs/lab1/ps_log:
+                     Sysoi123u  11526 ..c.. bash
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m fuser -v .ps_a.log
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m opem[Kn[K[K[K[Kopen ps_a.log
+Не удалось получить файловый дескриптор, указывающий на консоль
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m sudo !!
+sudo open ps_a.log
+[sudo] пароль для Sysoi123u: 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/ps_log[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/ps_log $[00m cd ..
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+adduser_r.txt                        copy_terminal_pidof.txt   [0m[01;34mps_log[0m                  script_catalogs_create_u.txt  script_u.txt
+copy_terminal_add_groups.txt         copy_terminal_ps_log.txt  ps_log.txt              script_fuser.txt              terminal_copy_u.txt
+copy_terminal_catalogs_create_u.txt  [01;34mfirst[0m                     script_add_group_u.txt  script_pidof.txt              text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m lscd ..sudo open ps_a.log[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[4@fuser -v[C[C[C[C[C[C[C[C[C.[Kps_a.log.[K
+                     ПОЛЬЗ-ЛЬ    PID ДОСТУП КОМАНДА
+/home/Sysoi123u/pmvs/lab1:
+                     Sysoi123u   6411 ..c.. bash
+                     Sysoi123u   8061 ..c.. git
+                     Sysoi123u   8062 ..c.. git-remote-http
+                     Sysoi123u  11526 ..c.. bash
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m fuser -v .ls[Kcd ..sudo open ps_a.log[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[4@fuser -v[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K-v adduser_r.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m exit
+exit
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m exit
+exit
+
+Скрипт выполнен Вс 09 сен 2018 13:14:24

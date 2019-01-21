@@ -1,0 +1,43 @@
+man chmod
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ man chown
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ script script_add_group_u.txt
+Скрипт запущен, файл — script_add_group_u.txt
+script: невозможно открыть script_add_group_u.txt: Отказано в доступе
+                                                                     Скрипт выполнен, файл - script_add_group_u.txt
+Ошибка сегментирования (сделан дамп памяти)
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo !!
+sudo script script_add_group_u.txt
+Скрипт запущен, файл — script_add_group_u.txt
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ groupadd student123u
+groupadd: Permission denied.
+groupadd: не удалось заблокировать /etc/group; попробуйте ещё раз позже.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo !!
+sudo groupadd student123u
+[sudo] пароль для Sysoi123u: 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ gpasswd -a Sysoi123u student123u
+gpasswd: доступ запрещён.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo gpasswd -a Sysoi123u student123u
+Добавление пользователя Sysoi123u в группу student123u
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cd ..
+Sysoi123u@isysoi-P35AP-S ~/pmvs $ cd ..
+Sysoi123u@isysoi-P35AP-S ~ $ sudo chowm student123u ~
+sudo: chowm: команда не найдена
+Sysoi123u@isysoi-P35AP-S ~ $ sudo chowm student123u lab1
+sudo: chowm: команда не найдена
+Sysoi123u@isysoi-P35AP-S ~ $ sudo chown student123u ~
+chown: неверный пользователь: «student123u»
+Sysoi123u@isysoi-P35AP-S ~ $ sudo chown :student123u ~
+Sysoi123u@isysoi-P35AP-S ~ $ ls -l
+итого 4
+drwxr-xr-x 3 root root 4096 сен  9 10:14 pmvs
+Sysoi123u@isysoi-P35AP-S ~ $ sudo chown :student123u pmvs
+Sysoi123u@isysoi-P35AP-S ~ $ ls -l
+итого 4
+drwxr-xr-x 3 root student123u 4096 сен  9 10:14 pmvs
+Sysoi123u@isysoi-P35AP-S ~ $ exit
+exit
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - script_add_group_u.txt
+

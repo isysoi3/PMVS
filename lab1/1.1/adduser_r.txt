@@ -1,0 +1,37 @@
+Script started on Sun 09 Sep 2018 07:59:08 BST
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo adduser Sysoi123r --fro[K[Korce-badname
+Allowing use of questionable username.
+Adding user `Sysoi123r' ...
+Adding new group `Sysoi123r' (1002) ...
+Adding new user `Sysoi123r' (1002) with group `Sysoi123r' ...
+The home directory `/home/Sysoi123r' already exists.  Not copying from `/etc/skel'.
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for Sysoi123r
+Enter the new value, or press ENTER for the default
+	Full Name []: Ilya Sysoi
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] Y
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m su - Sysoi123r
+Password: 
+su: Authentication failure
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m 123[K[K[Ksu - Sysoi123r
+Password: 
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m hostname -i
+10.0.2.15 192.168.56.101
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m exit
+logout
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m txit
+bash: txit: command not found
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m txit[1Pxitexit
+exit
+
+Script done on Sun 09 Sep 2018 08:15:47 BST

@@ -1,0 +1,216 @@
+Скрипт запущен Вс 09 сен 2018 13:57:19
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m su Sys[Ksoi123u 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m mkd[K[K[Ks[Ksudo mkdir rys[K[Ksync-backuo[Kp
+[sudo] пароль для Sysoi123u: 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+[0m[01;34m1.1[0m  [01;34madd groups[0m  [01;34mcatalogs create[0m  [01;34mfirst[0m  [01;31mfirst.tar.gz[0m  [01;34mfuser[0m  [01;34mgzip[0m  [01;34mmc[0m  [01;34mpidof[0m  [01;34mps[0m  [01;34mps_log[0m  [01;34mrsync-backup[0m  script_rsync.txt  [01;34mtar[0m  text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m lssudo mkdir rsync-backupls[K[Kssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 11:43:49 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+3.txt  [0m[01;34msysoi[0m
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m cd sysoi
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m ls
+[0m[01;31mfirst.tar[0m  [01;34mhome[0m  text_tee_file.txt
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m cd[K[K sudo mkdir rsync-backup
+[sudo] password for Sysoi123r: 
+Sysoi123r is not in the sudoers file.  This incident will be reported.
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m ls
+[0m[01;31mfirst.tar[0m  [01;34mhome[0m  text_tee_file.txt
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m lscd sysoils[Kexit[2Plscd homels[Ktar -xf first.tarls[Ktar -xf first.tarls[Kcd home^C
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m  mkdir rsync-backup
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m ls[K
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m ls
+[0m[01;31mfirst.tar[0m  [01;34mhome[0m  [01;34mrsync-backup[0m  text_tee_file.txt
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+[0m[01;34m1.1[0m  [01;34madd groups[0m  [01;34mcatalogs create[0m  [01;34mfirst[0m  [01;31mfirst.tar.gz[0m  [01;34mfuser[0m  [01;34mgzip[0m  [01;34mmc[0m  [01;34mpidof[0m  [01;34mps[0m  [01;34mps_log[0m  [01;34mrsync-backup[0m  script_rsync.txt  [01;34mtar[0m  text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m cp text_tee_file.txt script_rsync.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kyc[K[K[Krsync-backup/
+cp: невозможно создать обычный файл 'rsync-backup/text_tee_file.txt': Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m sudo !!
+sudo cp text_tee_file.txt rsync-backup/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+[0m[01;34m1.1[0m  [01;34madd groups[0m  [01;34mcatalogs create[0m  [01;34mfirst[0m  [01;31mfirst.tar.gz[0m  [01;34mfuser[0m  [01;34mgzip[0m  [01;34mmc[0m  [01;34mpidof[0m  [01;34mps[0m  [01;34mps_log[0m  [01;34mrsync-backup[0m  script_rsync.txt  [01;34mtar[0m  text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m cd e[Krsync-backup/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m las[K[Ks
+text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m vim text_tee_file.txt 
+Приложение 'vim' может быть найдено в следующих пакетах:
+ * vim
+ * vim-gnome
+ * vim-tiny
+ * vim-athena
+ * vim-athena-py2
+ * vim-gnome-py2
+ * vim-gtk
+ * vim-gtk-py2
+ * vim-gtk3
+ * vim-gtk3-py2
+ * vim-nox
+ * vim-nox-py2
+Попробуйте: sudo apt install <выбранный пакет>
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m nanio[K[Ko text_tee_file.txt 
+Unable to create directory /home/Sysoi123u/.nano: Отказано в доступе
+It is required for saving/loading search history or cursor positions.
+
+Нажмите ВВОД для продолжения.
+\
+[?1049h[1;62r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[60;40H(B[0;7m[ Ошибка записи файла блокировки ./.text_tee_file.txt.swp: Отказано в доступе ][3d(B[m[60;71H[1K (B[0;7m[ Чтение файла ](B[m[K[3d[60;57H(B[0;7m[ Read 1 line (Warning: No write permission) ][4d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                      Файл: text_tee_file.txt                                                                                 [3;1H(B[mtest info[61d(B[0;7m^G(B[m Помощь[61;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[61;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62d(B[0;7m^X(B[m Выход[62;18H(B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[62;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[3dtest info[?25l[1;150H(B[0;7mИзменён[60;39H[ Предупреждение: Изменяя не заблокированный файл, проверять доступ к каталогу? ][3;10H(B[m[?12l[?25h to sync[4d[60d(B[0;7mИмя файла для записи: text_tee_file.txt                                                                                                                       [61;18H(B[m[14X[61;32H(B[0;7mM-D(B[m Формат DOS[52G           (B[0;7mM-A(B[m Доп. в начало[14X[61;94H(B[0;7mM-B(B[m Резерв. копия[K[62;2H(B[0;7mC(B[m Отмена[62;18H[14X[62;32H(B[0;7mM-M(B[m Формат Mac[52G           (B[0;7mM-P(B[m Доп. в конец[86G        (B[0;7m^T(B[m К файлам[K[60;40H[?25l[60;51H[1K (B[0;7m[ Ошибка записи text_tee_file.txt: Отказано в доступе ](B[m[K[4d[?12l[?25h[61;18H(B[0;7m^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4d[60d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [61;1H Y(B[m Да[K[62d(B[0;7m N(B[m Нет  [62;17H(B[0;7m^C(B[m Отмен[C[K[60;66H[?25l[73G[1K (B[0;7m[ Отменено ](B[m[K[4d[?12l[?25h[61d(B[0;7m^G(B[m Помощь[61;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[61;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62d(B[0;7m^X(B[m Выход[62;17H (B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[62;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4d[60d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [61;1H Y(B[m Да[K[62d(B[0;7m N(B[m Нет  [62;17H(B[0;7m^C(B[m Отмен[C[K[60;66H[?25l[73G[1K (B[0;7m[ Отменено ](B[m[K[4d[?12l[?25h[61d(B[0;7m^G(B[m Помощь[61;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[61;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62d(B[0;7m^X(B[m Выход[62;17H (B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[62;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4d[60d(B[0;7mИмя файла для записи: text_tee_file.txt                                                                                                                       [61;18H(B[m[14X[61;32H(B[0;7mM-D(B[m Формат DOS[52G           (B[0;7mM-A(B[m Доп. в начало[14X[61;94H(B[0;7mM-B(B[m Резерв. копия[K[62;2H(B[0;7mC(B[m Отмена[62;18H[14X[62;32H(B[0;7mM-M(B[m Формат Mac[52G           (B[0;7mM-P(B[m Доп. в конец[86G        (B[0;7m^T(B[m К файлам[K[60;40H[?25l[60;51H[1K (B[0;7m[ Ошибка записи text_tee_file.txt: Отказано в доступе ](B[m[K[4d[?12l[?25h[61;18H(B[0;7m^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4d[60d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [61;1H Y(B[m Да[K[62d(B[0;7m N(B[m Нет  [62;17H(B[0;7m^C(B[m Отмен[C[K[60;66H(B[0;7mИмя файла для записи: text_tee_file.txt                         [61d^G(B[m Помощь[61;32H(B[0;7mM-D(B[m Формат DOS[61;63H(B[0;7mM-A(B[m Доп. в начало[61;94H(B[0;7mM-B(B[m Резерв. копия[62d(B[0;7m^C(B[m Отмена[17G         [32G(B[0;7mM-M(B[m Формат Mac[62;63H(B[0;7mM-P(B[m Доп. в конец[62;94H(B[0;7m^T(B[m К файлам[60;40H[?25l[60;51H[1K (B[0;7m[ Ошибка записи text_tee_file.txt: Отказано в доступе ](B[m[K[4d[?12l[?25h[61;18H(B[0;7m^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4d[60d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [61;1H Y(B[m Да[K[62d(B[0;7m N(B[m Нет  [62;17H(B[0;7m^C(B[m Отмен[C[K[60;66H(B[0;7mИмя файла для записи: text_tee_file.txt                         [61d^G(B[m Помощь[61;32H(B[0;7mM-D(B[m Формат DOS[61;63H(B[0;7mM-A(B[m Доп. в начало[61;94H(B[0;7mM-B(B[m Резерв. копия[62d(B[0;7m^C(B[m Отмена[17G         [32G(B[0;7mM-M(B[m Формат Mac[62;63H(B[0;7mM-P(B[m Доп. в конец[62;94H(B[0;7m^T(B[m К файлам[60;40H[?25l[60;51H[1K (B[0;7m[ Ошибка записи text_tee_file.txt: Отказано в доступе ](B[m[K[4d[?12l[?25h[61;18H(B[0;7m^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4d[4;9H[60d(B[0;7mИмя файла для записи: text_tee_file.txt                                                                                                                       [61;18H(B[m[14X[61;32H(B[0;7mM-D(B[m Формат DOS[52G           (B[0;7mM-A(B[m Доп. в начало[14X[61;94H(B[0;7mM-B(B[m Резерв. копия[K[62;2H(B[0;7mC(B[m Отмена[62;18H[14X[62;32H(B[0;7mM-M(B[m Формат Mac[52G           (B[0;7mM-P(B[m Доп. в конец[86G        (B[0;7m^T(B[m К файлам[K[60;40H[?25l[60;51H[1K (B[0;7m[ Ошибка записи text_tee_file.txt: Отказано в доступе ](B[m[K[4;9H[?12l[?25h[61;18H(B[0;7m^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4;9H[60d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [61;1H Y(B[m Да[K[62d(B[0;7m N(B[m Нет  [62;17H(B[0;7m^C(B[m Отмен[C[K[60;66H(B[0;7mИмя файла для записи: text_tee_file.txt                         [61d^G(B[m Помощь[61;32H(B[0;7mM-D(B[m Формат DOS[61;63H(B[0;7mM-A(B[m Доп. в начало[61;94H(B[0;7mM-B(B[m Резерв. копия[62d(B[0;7m^C(B[m Отмена[17G         [32G(B[0;7mM-M(B[m Формат Mac[62;63H(B[0;7mM-P(B[m Доп. в конец[62;94H(B[0;7m^T(B[m К файлам[60;40H[?25l[60;51H[1K (B[0;7m[ Ошибка записи text_tee_file.txt: Отказано в доступе ](B[m[K[4;9H[?12l[?25h[61;18H(B[0;7m^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[4;9H[?25l[60;54H(B[0;7mстрока 2/3(66%), ряд 9/9 (100%), символ 19/20 (95%)[4;9H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[60d(B[0;7mСохранить изменённый буфер? (ИНАЧЕ ВСЕ ИЗМЕНЕНИЯ БУДУТ ПОТЕРЯНЫ)                                                                                              [61;1H Y(B[m Да[K[62d(B[0;7m N(B[m Нет  [62;17H(B[0;7m^C(B[m Отмен[C[K[60;66H[J[62;158H[62;1H[?1049l[?1l>]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m rsync -avzh /root/firstdir root@10.249.140.239:/root/
+^Z
+[1]+  Остановлено  rsync -avzh /root/firstdir root@10.249.140.239:/root/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m rsync -avzh /root/firstdir root@10.249.140.239:/root/[C[C[C[C[C[C[C[1P[1P[1P[1P[1P root@10.249.140.239:/root/[1P[1P[1P[1P[1P[1P[1P root@10.249.140.239:/root/[1P[1@![1P[1@~[1@.[1@/[1P[1P[1@/[C[1P root@10.249.140.239:/root/p root@10.249.140.239:/root/m root@10.249.140.239:/root/v root@10.249.140.239:/root/s root@10.249.140.239:/root/. root@10.249.140.239:/root/l root@10.249.140.239:/root/[1P root@10.249.140.239:/root/[1P root@10.249.140.239:/root// root@10.249.140.239:/root/l root@10.249.140.239:/root/a root@10.249.140.239:/root/b root@10.249.140.239:/root/1 root@10.249.140.239:/root/. root@10.249.140.239:/root/[1P root@10.249.140.239:/root// root@10.249.140.239:/root/r root@10.249.140.239:/root/y root@10.249.140.239:/root/[1P root@10.249.140.239:/root/s root@10.249.140.239:/root/y root@10.249.140.239:/root/n root@10.249.140.239:/root/c root@10.249.140.239:/root/- root@10.249.140.239:/root/b root@10.249.140.239:/root/a root@10.249.140.239:/root/c root@10.249.140.239:/root/k root@10.249.140.239:/root/u root@10.249.140.239:/root/o root@10.249.140.239:/root/[C[C[C[C[1P root@10.249.140.239:/root/p root@10.249.140.239:/root/[C[C[C[C[1Pt@10.249.140.239:/root/[C[1P@10.249.140.239:/root/[1P@10.249.140.239:/root/[1P@10.249.140.239:/root/S@10.249.140.239:/root/t@10.249.140.239:/root/y@10.249.140.239:/root/s@10.249.140.239:/root/o@10.249.140.239:/root/i@10.249.140.239:/root/[1P@10.249.140.239:/root/[1P@10.249.140.239:/root/[1P@10.249.140.239:/root/[1P@10.249.140.239:/root/[1P@10.249.140.239:/root/y@10.249.140.239:/root/s@10.249.140.239:/root/o@10.249.140.239:/root/i@10.249.140.239:/root/1@10.249.140.239:/root/2@10.249.140.239:/root/3@10.249.140.239:/root/r@10.249.140.239:/root/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/[1P/[1P/[1P/[K!/[C[K[K~/sysoi/rsync-na[K[Kbackup/[C[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/[1P:~/sysoi/rsync-backup/9:~/sysoi/rsync-backup/2:~/sysoi/rsync-backup/.:~/sysoi/rsync-backup/1:~/sysoi/rsync-backup/6:~/sysoi/rsync-backup/8:~/sysoi/rsync-backup/.:~/sysoi/rsync-backup/5:~/sysoi/rsync-backup/6:~/sysoi/rsync-backup/.:~/sysoi/rsync-backup/1:~/sysoi/rsync-backup/0:~/sysoi/rsync-backup/1:~/sysoi/rsync-backup/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+sending incremental file list
+rsync-backup/
+rsync-backup/text_tee_file.txt
+
+sent 158 bytes  received 39 bytes  56.29 bytes/sec
+total size is 18  speedup is 0.09
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30P/root/firstdir root@10.249.140.239:/root/[30Pnano text_tee_file.txt [1Pvim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd rsync-backup/ls[Ksudo cp text_tee_file.txt rsync-backup/[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kssh Sysoi123r@192.168.56.101ls[Ksudo mkdir rsync-backupls[Kssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 11:58:24 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+3.txt  [0m[01;34msysoi[0m
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m cd sysoi
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m ls
+[0m[01;31mfirst.tar[0m  [01;34mhome[0m  [01;34mrsync-backup[0m  text_tee_file.txt
+]0;Sysoi123r@raspberry: ~/sysoi[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi $[00m cd rsync-backup/
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup $[00m ls
+[0m[01;34mrsync-backup[0m
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup $[00m cd rsync-backup/
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m ls
+text_tee_file.txt
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m opem[K[K[K[Kssh Sysoi123r@192.168.56.101rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30P/root/firstdir root@10.249.140.239:/root/[30Pnano text_tee_file.txt [1Pvim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Unable to create directory /home/Sysoi123u/.nano: Отказано в доступе
+It is required for saving/loading search history or cursor positions.
+
+Нажмите ВВОД для продолжения.
+
+[?1049h[1;62r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[60;40H(B[0;7m[ Ошибка записи файла блокировки ./.text_tee_file.txt.swp: Отказано в доступе ][3d(B[m[60;71H[1K (B[0;7m[ Чтение файла ](B[m[K[3d[60;57H(B[0;7m[ Read 1 line (Warning: No write permission) ][4d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                      Файл: text_tee_file.txt                                                                                 [3;1H(B[mtest info to sync[61d(B[0;7m^G(B[m Помощь[61;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[61;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62d(B[0;7m^X(B[m Выход[62;18H(B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[62;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[3d[?25l[60;54H(B[0;7m[ строка 1/2(50%), ряд 1/18 (5%), символ 0/18 (0%) ][3d(B[m[?12l[?25h[?25l[?12l[?25h[62;1H[?1049l[?1l>Используйте «fg» для возврата в nano
+
+[2]+  Остановлено  nano text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m nano text_tee_file.txt [Ks[Ksudo !!
+sudo nano text_tee_file.txt 
+[?1049h[1;62r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[60;72H(B[0;7m[ Чтение файла ][3d(B[m[60;69H(B[0;7m[ Прочитана 1 строка ][4d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                      Файл: text_tee_file.txt                                                                                 [3;1H(B[mtest info to sync[61d(B[0;7m^G(B[m Помощь[61;18H(B[0;7m^O(B[m Записать[35G(B[0;7m^W(B[m Поиск[61;52H(B[0;7m^K(B[m Вырезать[69G(B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц[103G(B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62d(B[0;7m^X(B[m Выход[62;18H(B[0;7m^R(B[m ЧитФайл[35G(B[0;7m^\(B[m Замена[62;52H(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке[103G(B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[3dtest info to sync[4d[1;150H(B[0;7mИзменён[4d(B[m1[K[60d[K[4d[3;18H123[60d(B[0;7mИмя файла для записи: text_tee_file.txt                                                                                                                       [61;18H(B[m[14X[61;32H(B[0;7mM-D(B[m Формат DOS[52G           (B[0;7mM-A(B[m Доп. в начало[14X[61;94H(B[0;7mM-B(B[m Резерв. копия[K[62;2H(B[0;7mC(B[m Отмена[62;18H[14X[62;32H(B[0;7mM-M(B[m Формат Mac[52G           (B[0;7mM-P(B[m Доп. в конец[86G        (B[0;7m^T(B[m К файлам[K[60;40H[?25l[60;68H[39;49m(B[m[1K (B[0;7m[ Записано 1 строка ](B[m[K[3;21H[?12l[?25h[1;150H(B[0;7m       [61;18H^O(B[m Записать      (B[0;7m^W(B[m Поиск   [52G(B[0;7m^K(B[m Вырезать      (B[0;7m^J(B[m Выровнять     (B[0;7m^C(B[m ТекПозиц      (B[0;7m^Y(B[m ПредCтр[120G(B[0;7mM-\(B[m ПервСтрока   (B[0;7mM-W(B[m Найти далее[62;2H(B[0;7mX(B[m Выход [62;18H(B[0;7m^R(B[m ЧитФайл       (B[0;7m^\(B[m Замена  [52G(B[0;7m^U(B[m Отмен. вырезку(B[0;7m^T(B[m Словарь[86G(B[0;7m^_(B[m К строке      (B[0;7m^V(B[m СледCтр[120G(B[0;7mM-/(B[m ПослСтрока   (B[0;7mM-](B[m На скобку[3;21H[60d[J[62;158H[62;1H[?1049l[?1l>]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m sudo nano text_tee_file.txt [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh Sysoi123r@192.168.56.101rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30P/root/firstdir root@10.249.140.239:/root/~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+sending incremental file list
+rsync-backup/
+rsync-backup/text_tee_file.txt
+
+sent 164 bytes  received 45 bytes  46.44 bytes/sec
+total size is 21  speedup is 0.10
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[55Psudo nano text_tee_file.txt [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh Sysoi123r@192.168.56.101rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[55Pssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yse  es
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 12:05:13 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m cd sysoi/.[Krsync-backup/rsync-backup/
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m ls
+text_tee_file.txt
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m sud[K[K[Kann[K[K[Knano text_tee_file.txt 
+[?1049h[1;62r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                                     File: text_tee_file.txt                                                                                  [3;1H(B[mtest info to sync123[60;72H(B[0;7m[ Read 1 line ][61d^G(B[m Get Help[61;27H(B[0;7m^O(B[m WriteOut[61;53H(B[0;7m^R(B[m Read File[61;79H(B[0;7m^Y(B[m Prev Page[61;105H(B[0;7m^K(B[m Cut Text[61;131H(B[0;7m^C(B[m Cur Pos[62d(B[0;7m^X(B[m Exit[62;27H(B[0;7m^J(B[m Justify[62;53H(B[0;7m^W(B[m Where Is[62;79H(B[0;7m^V(B[m Next Page[62;105H(B[0;7m^U(B[m UnCut Text[62;131H(B[0;7m^T(B[m To Spell[3d[61d[J[62;158H[62;1H[?1049l[?1l>]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m exit
+exit
+Есть приостановленные задачи.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m car[Kt text_tee_file.txt 
+test info to sync123
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m cat text_tee_file.txt exit[Kssh Sysoi123r@192.168.56.101rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[55Pssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? ^[[A^[[Ae yes
+Please type 'yes' or 'no': yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 12:11:32 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m exitnano text_tee_file.txt ls[Kcd sysoi/rsync-backup/rsync-backup/
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m csr[K[Kat text_tee_file.txt 
+test info to sync123
+]0;Sysoi123r@raspberry: ~/sysoi/rsync-backup/rsync-backup[01;32mSysoi123r@raspberry[00m:[01;34m~/sysoi/rsync-backup/rsync-backup $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m exit
+exit
+Есть приостановленные задачи.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/rsync-backup $[00m exit
+exit
+[62;1H[?1049l[?1l>Получен SIGHUP или SIGTERM
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(638) [sender=3.1.1]
+exit
+exit
+
+Скрипт выполнен Вс 09 сен 2018 14:12:29

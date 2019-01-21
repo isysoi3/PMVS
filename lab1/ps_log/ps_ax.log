@@ -1,0 +1,285 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init splash
+    2 ?        S      0:00 [kthreadd]
+    4 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S      0:00 [ksoftirqd/0]
+    7 ?        S      0:02 [rcu_sched]
+    8 ?        S      0:00 [rcu_bh]
+    9 ?        S      0:00 [migration/0]
+   10 ?        S<     0:00 [lru-add-drain]
+   11 ?        S      0:00 [watchdog/0]
+   12 ?        S      0:00 [cpuhp/0]
+   13 ?        S      0:00 [cpuhp/1]
+   14 ?        S      0:00 [watchdog/1]
+   15 ?        S      0:00 [migration/1]
+   16 ?        S      0:00 [ksoftirqd/1]
+   18 ?        S<     0:00 [kworker/1:0H]
+   19 ?        S      0:00 [cpuhp/2]
+   20 ?        S      0:00 [watchdog/2]
+   21 ?        S      0:00 [migration/2]
+   22 ?        S      0:00 [ksoftirqd/2]
+   24 ?        S<     0:00 [kworker/2:0H]
+   25 ?        S      0:00 [cpuhp/3]
+   26 ?        S      0:00 [watchdog/3]
+   27 ?        S      0:00 [migration/3]
+   28 ?        S      0:00 [ksoftirqd/3]
+   30 ?        S<     0:00 [kworker/3:0H]
+   31 ?        S      0:00 [kdevtmpfs]
+   32 ?        S<     0:00 [netns]
+   33 ?        S      0:00 [khungtaskd]
+   34 ?        S      0:00 [oom_reaper]
+   35 ?        S<     0:00 [writeback]
+   36 ?        S      0:00 [kcompactd0]
+   37 ?        SN     0:00 [ksmd]
+   38 ?        SN     0:00 [khugepaged]
+   39 ?        S<     0:00 [crypto]
+   40 ?        S<     0:00 [kintegrityd]
+   41 ?        S<     0:00 [bioset]
+   42 ?        S<     0:00 [kblockd]
+   43 ?        S<     0:00 [ata_sff]
+   44 ?        S<     0:00 [md]
+   45 ?        S<     0:00 [devfreq_wq]
+   46 ?        S<     0:00 [watchdogd]
+   52 ?        S      0:00 [kauditd]
+   53 ?        S      0:00 [kswapd0]
+   54 ?        S<     0:00 [vmstat]
+   55 ?        S<     0:00 [bioset]
+   56 ?        S      0:00 [ecryptfs-kthrea]
+   96 ?        S<     0:00 [kthrotld]
+   97 ?        S<     0:00 [acpi_thermal_pm]
+   98 ?        S<     0:00 [bioset]
+   99 ?        S<     0:00 [bioset]
+  100 ?        S<     0:00 [bioset]
+  101 ?        S<     0:00 [bioset]
+  102 ?        S<     0:00 [bioset]
+  103 ?        S<     0:00 [bioset]
+  104 ?        S<     0:00 [bioset]
+  105 ?        S<     0:00 [bioset]
+  106 ?        S      0:00 [scsi_eh_0]
+  107 ?        S<     0:00 [scsi_tmf_0]
+  108 ?        S      0:00 [scsi_eh_1]
+  109 ?        S<     0:00 [scsi_tmf_1]
+  111 ?        S      0:00 [scsi_eh_2]
+  112 ?        S<     0:00 [scsi_tmf_2]
+  113 ?        S      0:00 [scsi_eh_3]
+  114 ?        S<     0:00 [scsi_tmf_3]
+  122 ?        S<     0:00 [ipv6_addrconf]
+  143 ?        S<     0:00 [charger_manager]
+  151 ?        S<     0:00 [bioset]
+  152 ?        S<     0:00 [bioset]
+  153 ?        S<     0:00 [bioset]
+  154 ?        S<     0:00 [kworker/1:1H]
+  155 ?        S<     0:00 [kworker/0:1H]
+  156 ?        S<     0:00 [kworker/3:1H]
+  205 ?        S<     0:00 [bioset]
+  206 ?        S<     0:00 [bioset]
+  207 ?        S<     0:00 [bioset]
+  208 ?        S<     0:00 [bioset]
+  210 ?        S<     0:00 [bioset]
+  211 ?        S<     0:00 [bioset]
+  213 ?        S<     0:00 [bioset]
+  214 ?        S<     0:00 [bioset]
+  217 ?        S      0:00 [scsi_eh_4]
+  218 ?        S<     0:00 [scsi_tmf_4]
+  219 ?        S      0:00 [scsi_eh_5]
+  220 ?        S<     0:00 [scsi_tmf_5]
+  224 ?        S<     0:00 [firewire]
+  225 ?        S      0:00 [scsi_eh_6]
+  226 ?        S<     0:00 [scsi_tmf_6]
+  227 ?        S      0:00 [scsi_eh_7]
+  228 ?        S<     0:00 [scsi_tmf_7]
+  229 ?        S<     0:00 [firewire_ohci]
+  233 ?        S<     0:00 [kworker/2:1H]
+  238 ?        S      0:00 [scsi_eh_8]
+  239 ?        S<     0:00 [scsi_tmf_8]
+  240 ?        S      0:00 [usb-storage]
+  246 ?        S<     0:00 [bioset]
+  328 ?        S<     0:00 [bioset]
+  357 ?        D      0:00 [jbd2/sdb3-8]
+  358 ?        S<     0:00 [ext4-rsv-conver]
+  395 ?        Ss     0:00 /lib/systemd/systemd-journald
+  415 ?        Ss     0:00 /sbin/lvmetad -f
+  427 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  748 ?        S      0:00 [nvidia-modeset]
+  768 ?        S      0:00 [UVM global queu]
+  769 ?        S      0:00 [UVM Tools Event]
+  808 ?        S      0:00 [jbd2/sdb2-8]
+  809 ?        S<     0:00 [ext4-rsv-conver]
+  968 ?        Ss     0:00 /lib/systemd/systemd-logind
+  972 ?        Ssl    0:00 /usr/sbin/ModemManager
+  982 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  984 ?        Ss     0:00 /sbin/cgmanager -m name=systemd
+  997 ?        Ss     0:00 /usr/sbin/cron -f
+ 1001 ?        Ss     0:00 /usr/sbin/cupsd -l
+ 1005 ?        Ss     0:00 /usr/sbin/acpid
+ 1008 ?        Ss     0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+ 1023 ?        S<     0:00 [iprt-VBoxWQueue]
+ 1069 ?        Ssl    0:00 /usr/sbin/cups-browsed
+ 1071 ?        Ssl    0:00 /usr/lib/accountsservice/accounts-daemon
+ 1073 ?        Ssl    0:00 /usr/sbin/NetworkManager --no-daemon
+ 1154 ?        SLsl   0:00 /usr/sbin/lightdm
+ 1177 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+ 1224 tty7     Ss+    2:55 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 1262 ?        Ss     0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+ 1281 ?        Ssl    0:00 /usr/lib/colord/colord
+ 1324 ?        S      0:00 /usr/lib/cups/notifier/dbus dbus://
+ 1337 ?        S      0:32 [irq/29-nvidia]
+ 1338 ?        S      0:00 [nvidia]
+ 1351 ?        Ss     0:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+ 1352 ?        S      0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-enp4s0.pid -lf /var/lib/NetworkManager/dhclient-e9c654e4-d8e7-3dab-a19f-38baaba69146-enp4s0.lease -cf /var/lib/NetworkManager/dhclient-enp4s0.conf enp4s0
+ 1366 ?        S      0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 1532 ?        Ss     0:00 avahi-daemon: running [isysoi-P35AP-S.local]
+ 1533 ?        S      0:00 avahi-daemon: chroot helper
+ 1655 ?        Ssl    0:00 /usr/lib/upower/upowerd
+ 1708 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+ 1720 ?        Sl     0:00 lightdm --session-child 12 21
+ 1733 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 109:116
+ 1788 ?        Ss     0:00 /lib/systemd/systemd --user
+ 1789 ?        S      0:00 (sd-pam)
+ 1794 ?        SLl    0:01 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 1796 ?        Ssl    0:00 cinnamon-session --session cinnamon
+ 1851 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch cinnamon-session-cinnamon
+ 1854 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/im-launch cinnamon-session-cinnamon
+ 1855 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 1878 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ 1883 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 1885 ?        Sl     0:01 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 1929 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-clipboard
+ 1930 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-background
+ 1931 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-sound
+ 1937 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-housekeeping
+ 1940 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-wacom
+ 1944 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-mouse
+ 1949 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-settings
+ 1953 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-print-notifications
+ 1955 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xrandr
+ 1961 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-keyboard
+ 1963 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-power
+ 1967 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-orientation
+ 1968 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-color
+ 1969 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xsettings
+ 1970 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-cursor
+ 1971 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-automount
+ 1974 ?        Sl     0:01 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-keyboard
+ 1994 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+ 2001 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 2009 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-media-keys
+ 2012 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-screensaver-proxy
+ 2026 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 2037 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 2040 ?        Ssl    0:01 /usr/lib/udisks2/udisksd --no-debug
+ 2062 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+ 2073 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ 2083 ?        Sl     0:00 /usr/lib/gnome-online-accounts/goa-daemon
+ 2086 ?        S<l    1:12 /usr/bin/pulseaudio --start --log-target=syslog
+ 2087 ?        SNsl   0:00 /usr/lib/rtkit/rtkit-daemon
+ 2180 ?        Sl     0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+ 2183 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 2192 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 2198 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 2233 ?        S      0:00 /usr/bin/python3 /usr/bin/cinnamon-launcher
+ 2234 ?        Sl     6:27 cinnamon --replace
+ 2258 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ 2265 ?        Sl     0:00 blueberry-obex-agent
+ 2268 ?        Sl     0:00 nemo-desktop
+ 2269 ?        Sl     0:00 nm-applet
+ 2276 ?        Sl     0:00 /usr/bin/python3 /usr/bin/cinnamon-killer-daemon
+ 2279 ?        Sl     0:08 usr/share/jetbrains-toolbox/jetbrains-toolbox --minimize
+ 2297 ?        Ssl    0:01 /home/isysoi/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
+ 2314 ?        S      0:00 /usr/lib/bluetooth/obexd
+ 2316 ?        Sl     0:02 cinnamon-screensaver
+ 2320 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+ 2346 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+ 2369 ?        Sl     0:01 /tmp/.mount_jetbrawt64dB/usr/share/jetbrains-toolbox/CEF/jetbrains-toolbox-cef --toolbox-server-ws=ws://127.0.0.1:44379 --toolbox-server-token=c51dd29687704102a055e98369d706df --toolbox-data=/home/isysoi/.local/share/JetBrains/Toolbox/cef-data --toolbox-cache=/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache --toolbox-log=/home/isysoi/.local/share/JetBrains/Toolbox/logs --window-mode --minimize --toolbox-server-pid=2279 --disable-extensions
+ 2415 ?        S      0:00 /usr/bin/python3 /usr/bin/mintupdate-launcher
+ 2422 ?        S      0:00 sh -c /usr/lib/linuxmint/mintUpdate/mintUpdate.py
+ 2423 ?        Sl     0:00 mintUpdate
+ 2425 ?        S      0:00 /tmp/.mount_jetbrawt64dB/usr/share/jetbrains-toolbox/CEF/jetbrains-toolbox-cef-helper --type=zygote --no-sandbox --log-file=/home/isysoi/.local/share/JetBrains/Toolbox/logs/cef.log --lang=en-US --toolbox-server-pid=2369 --no-proxy
+ 2443 ?        Sl     0:00 /tmp/.mount_jetbrawt64dB/usr/share/jetbrains-toolbox/CEF/jetbrains-toolbox-cef-helper --type=gpu-process --no-sandbox --log-file=/home/isysoi/.local/share/JetBrains/Toolbox/logs/cef.log --lang=en-US --toolbox-server-pid=2369 --no-proxy --gpu-preferences=KAAAAAAAAACAAACAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --log-file=/home/isysoi/.local/share/JetBrains/Toolbox/logs/cef.log --lang=en-US --toolbox-server-pid=2369 --no-proxy --service-request-channel-token=453C7A47F6E6B28340F78F1A9C05C2D7
+ 2484 ?        Sl     0:02 /tmp/.mount_jetbrawt64dB/usr/share/jetbrains-toolbox/CEF/jetbrains-toolbox-cef-helper --type=renderer --no-sandbox --service-pipe-token=05C59744918694FF99475E0CBC462CC7 --lang=en-US --log-file=/home/isysoi/.local/share/JetBrains/Toolbox/logs/cef.log --uncaught-exception-stack-size=16 --toolbox-server-pid=2369 --no-proxy --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=05C59744918694FF99475E0CBC462CC7 --renderer-client-id=3 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2518 ?        Sl     0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+ 2545 ?        Sl     0:00 /usr/bin/python3 /usr/share/system-config-printer/scp-dbus-service.py
+ 2597 ?        Sl     0:16 /usr/lib/gnome-terminal/gnome-terminal-server
+ 2601 pts/0    Ss     0:00 bash
+ 2645 ?        S      0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+ 2650 ?        S      0:03 /usr/lib/virtualbox/VBoxXPCOMIPCD
+ 2655 ?        Sl     0:07 /usr/lib/virtualbox/VBoxSVC --auto-shutdown
+ 2660 ?        SLl    5:26 /opt/google/chrome/chrome
+ 2666 ?        S      0:00 cat
+ 2667 ?        S      0:00 cat
+ 2706 ?        S      0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb,
+ 2712 ?        S      0:00 /opt/google/chrome/nacl_helper
+ 2721 ?        S      0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb,
+ 2791 ?        Sl     5:34 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=3787015304376800110,10434573059236280974,131072 --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --gpu-preferences=KAAAAAAAAACAAABAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --service-request-channel-token=14007424771054265617
+ 2796 ?        S      0:00 /opt/google/chrome/chrome --type=-broker
+ 2857 ?        Sl     0:03 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=7135431605921665053 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=7135431605921665053 --renderer-client-id=12 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2859 ?        Sl     0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=4719830049761661453 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=4719830049761661453 --renderer-client-id=3 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2878 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=10296017555646985928 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10296017555646985928 --renderer-client-id=4 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2886 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=8927511237358211766 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=8927511237358211766 --renderer-client-id=5 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2894 ?        Sl     0:44 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=10792959746595638918 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10792959746595638918 --renderer-client-id=6 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2895 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=12137820966602941386 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=12137820966602941386 --renderer-client-id=7 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2903 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=10037191093495348453 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10037191093495348453 --renderer-client-id=9 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 2959 ?        Sl     1:18 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=3915790943157303338 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3915790943157303338 --renderer-client-id=13 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3003 ?        Sl     0:12 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=707324037881239795 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=707324037881239795 --renderer-client-id=24 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3015 ?        Sl     2:26 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=3323927919654566789 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3323927919654566789 --renderer-client-id=14 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3031 ?        Sl     0:42 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=16062315532959561508 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=16062315532959561508 --renderer-client-id=19 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3034 ?        Sl     0:06 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=12936668068602126930 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=12936668068602126930 --renderer-client-id=20 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3056 ?        Sl    13:29 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=3016790020803904618 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3016790020803904618 --renderer-client-id=17 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 3133 ?        Sl     5:33 /usr/lib/virtualbox/VirtualBox --comment Raspbian --startvm 36b320d3-de29-4124-83d1-968fb2b69409 --no-startvm-errormsgbox
+ 3164 ?        S      0:00 /usr/lib/virtualbox/VBoxNetDHCP --ip-address 192.168.56.100 --lower-ip 192.168.56.101 --mac-address 08:00:27:69:E1:C3 --netmask 255.255.255.0 --network HostInterfaceNetworking-vboxnet0 --trunk-name vboxnet0 --trunk-type netflt --upper-ip 192.168.56.254
+ 3278 ?        Sl     0:19 nemo
+ 3524 ?        S      0:00 dbus-launch --autolaunch=bbada5cfcc9a4a80ac8dc5ce6d9f53aa --binary-syntax --close-stderr
+ 3526 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ 4131 ?        Sl     0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=10115317828461426702 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10115317828461426702 --renderer-client-id=37 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 4389 ?        Ssl    0:00 /usr/sbin/console-kit-daemon --no-daemon
+ 4639 pts/2    Ss+    0:00 bash
+ 4872 ?        Sl     0:01 /usr/bin/python2 /usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py
+ 4889 ?        Z      0:00 [cinnamon-settin] <defunct>
+ 4894 ?        Z      0:00 [cinnamon-settin] <defunct>
+ 4899 ?        Z      0:00 [cinnamon-settin] <defunct>
+ 5547 ?        Sl     0:06 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=10323654419365017995 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10323654419365017995 --renderer-client-id=67 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 6067 ?        S      0:00 /opt/telegram/telegram --
+ 6161 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 6208 pts/0    S      0:00 su -
+ 6216 pts/0    S      0:00 -su
+ 6403 pts/0    S      0:00 su - Sysoi123u
+ 6411 pts/0    S      0:00 -su
+ 6483 ?        Sl     1:11 /opt/telegram/telegram --
+ 6508 ?        Sl     0:02 file-roller /home/isysoi/Загрузки/Telegram Desktop/pmvs-labrabota1-gruppa12-EkaterinaZhukova-master.zip
+ 6742 ?        Sl     0:09 xed /tmp/.fr-E3XYuO/pmvs-labrabota1-gruppa12-EkaterinaZhukova-master/GropsTerminalCopy.txt
+ 7219 ?        Sl     0:02 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=9493336088351036573 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=9493336088351036573 --renderer-client-id=85 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 7530 ?        Sl     1:36 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=12825443088652313535 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=12825443088652313535 --renderer-client-id=91 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 7568 ?        S      0:00 [kworker/0:0]
+ 7569 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=3738964884766282248 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3738964884766282248 --renderer-client-id=94 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 7583 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=7432352971369954925 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=7432352971369954925 --renderer-client-id=95 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 7597 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=3068062497647753224 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3068062497647753224 --renderer-client-id=96 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 7638 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=9053232827680283718 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=9053232827680283718 --renderer-client-id=99 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 7858 ?        Sl     0:03 /usr/bin/nemo /home/Sysoi123u/pmvs/lab1
+ 8061 pts/0    T      0:00 git push origin
+ 8062 pts/0    T      0:00 git-remote-https origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+ 9251 ?        Sl     0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=3149991563210338680 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3149991563210338680 --renderer-client-id=108 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 9851 ?        S      0:00 [kworker/2:0]
+10021 ?        S      0:00 [kworker/0:1]
+10033 pts/1    Ss+    0:00 bash
+10379 ?        S      0:00 [kworker/1:0]
+10444 ?        S      0:00 [kworker/2:2]
+10493 ?        S      0:00 [kworker/3:1]
+10567 ?        S      0:00 [kworker/u8:1]
+10678 ?        S      0:00 [kworker/3:2]
+10757 pts/0    S+     0:00 sudo script ps_log.txt
+10758 pts/0    S+     0:00 script ps_log.txt
+10759 pts/3    Ss     0:00 bash -i
+10775 pts/3    S      0:00 su Sysoi123u
+10783 pts/3    S      0:00 bash
+10830 ?        S      0:00 [kworker/u8:0]
+10923 ?        S      0:00 [kworker/1:2]
+10935 ?        S      0:00 [kworker/u8:2]
+10964 ?        Sl     0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=2816092132196132528 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2816092132196132528 --renderer-client-id=149 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+10981 ?        S      0:00 [kworker/0:2]
+10982 ?        S      0:00 [kworker/0:3]
+11002 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3787015304376800110,10434573059236280974,131072 --service-pipe-token=16742437553971268147 --lang=ru --enable-crash-reporter=ce260909-7f7b-494b-8ae2-2770daac7afb, --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=16742437553971268147 --renderer-client-id=151 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+11016 ?        S      0:00 [kworker/3:0]
+11040 pts/3    S      0:00 su
+11048 pts/3    S      0:00 bash
+11082 pts/3    S+     0:00 sudo ps ax
+11083 pts/3    R+     0:00 ps ax

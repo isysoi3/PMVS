@@ -1,0 +1,265 @@
+isysoi@isysoi-P35AP-S ~ $ script lab1_u.txt
+Скрипт запущен, файл — lab1_u.txt
+isysoi@isysoi-P35AP-S ~ $ sudo adduser Sysoi123u --force-badname
+[sudo] пароль для isysoi: 
+Разрешить использование не везде корректных имён.
+Добавляется пользователь «Sysoi123u» ...
+Добавляется новая группа «Sysoi123u» (1001) ...
+Добавляется новый пользователь «Sysoi123u» (1001) в группу «Sysoi123u» ...
+Домашний каталог «/home/Sysoi123u» уже существует. Не копируется из «/etc/skel».
+adduser: Внимание: данный домашний каталог `/home/Sysoi123u' не принадлежит пользователю, которого вы сейчас создаете
+Введите новый пароль UNIX: 
+Повторите ввод нового пароля UNIX: 
+passwd: пароль успешно обновлён
+Изменение информации о пользователе Sysoi123u
+Введите новое значение или нажмите ENTER для выбора значения по умолчанию
+	Полное имя []: Ilya Sysoi
+	Номер комнаты []: 
+	Рабочий телефон []: 
+	Домашний телефон []: 
+	Другое []: 
+Данная информация корректна? [Y/n] Y
+isysoi@isysoi-P35AP-S ~ $ su - Sysoi123u
+Пароль: 
+Sysoi123u@isysoi-P35AP-S ~ $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ ls
+lab1_1.txt  sysoi  tmp
+Sysoi123r@raspberry:~ $ rmdir sysoi
+rmdir: failed to remove 'sysoi': Directory not empty
+Sysoi123r@raspberry:~ $ rm -r sysoi
+Sysoi123r@raspberry:~ $ ls
+lab1_1.txt  tmp
+Sysoi123r@raspberry:~ $ rm tmp
+Sysoi123r@raspberry:~ $ rm lab1_1.txt
+Sysoi123r@raspberry:~ $ ls
+Sysoi123r@raspberry:~ $ man pwd
+man: can't set the locale; make sure $LC_* and $LANG are correct
+Sysoi123r@raspberry:~ $ mkdir sysoi
+Sysoi123r@raspberry:~ $ cd sysoi
+Sysoi123r@raspberry:~/sysoi $ who
+pi       tty1         Sep  9 07:40
+pi       :0           Sep  9 07:40 (:0)
+Sysoi123r pts/2        Sep  9 08:01 (192.168.56.1)
+Sysoi123r@raspberry:~/sysoi $ write pi
+write: pi has messages disabled
+Sysoi123r@raspberry:~/sysoi $ write Sysoi123r
+
+Message from Sysoi123r@raspberry on pts/2 at 08:04 ...
+Hi, Ilya
+Hi, Ilya
+EOF
+Sysoi123r@raspberry:~/sysoi $ tee text_tee_file.txt
+test indo 
+test indo
+Sysoi123r@raspberry:~/sysoi $ cat text_tee_file.txt 
+test indo
+Sysoi123r@raspberry:~/sysoi $ vi text_tee_file.txt 
+Sysoi123r@raspberry:~/sysoi $ cat text_tee_file.txt 
+test info
+Sysoi123r@raspberry:~/sysoi $ info cp
+-bash: info: command not found
+Sysoi123r@raspberry:~/sysoi $ man cp
+man: can't set the locale; make sure $LC_* and $LANG are correct
+Sysoi123r@raspberry:~/sysoi $ man unlink
+man: can't set the locale; make sure $LC_* and $LANG are correct
+Sysoi123r@raspberry:~/sysoi $ cp text_tee_file.txt 
+cp: missing destination file operand after 'text_tee_file.txt'
+Try 'cp --help' for more information.
+Sysoi123r@raspberry:~/sysoi $ cp text_tee_file.txt ~/
+Sysoi123r@raspberry:~/sysoi $ cd ..
+Sysoi123r@raspberry:~ $ ls
+sysoi  text_tee_file.txt
+Sysoi123r@raspberry:~ $ unlink text_tee_file.txt
+Sysoi123r@raspberry:~ $ ls
+sysoi
+Sysoi123r@raspberry:~ $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~ $ ls
+Sysoi123u@isysoi-P35AP-S ~ $ mkdir pmvs
+mkdir: невозможно создать каталог «pmvs»: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~ $ sudo mkdir pmvs
+[sudo] пароль для Sysoi123u: 
+Пользователю Sysoi123u запрещено выполнять '/bin/mkdir pmvs' с правами root на isysoi-P35AP-S.
+Sysoi123u@isysoi-P35AP-S ~ $ su - 
+Пароль: 
+isysoi-P35AP-S ~ # ls
+Android  Desktop
+isysoi-P35AP-S ~ # exit
+выход
+Sysoi123u@isysoi-P35AP-S ~ $ ^C
+Sysoi123u@isysoi-P35AP-S ~ $ sudo mkdir pmvs
+[sudo] пароль для Sysoi123u: 
+Пользователю Sysoi123u запрещено выполнять '/bin/mkdir pmvs' с правами root на isysoi-P35AP-S.
+Sysoi123u@isysoi-P35AP-S ~ $ mkdir pmvs
+mkdir: невозможно создать каталог «pmvs»: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~ $ pwd
+/home/Sysoi123u
+Sysoi123u@isysoi-P35AP-S ~ $ ^C
+Sysoi123u@isysoi-P35AP-S ~ $ su -
+Пароль: 
+isysoi-P35AP-S ~ # cd /home/Sysoi123u
+isysoi-P35AP-S Sysoi123u # mkdir pmvs
+isysoi-P35AP-S Sysoi123u # ls
+pmvs
+isysoi-P35AP-S Sysoi123u # exit
+выход
+Sysoi123u@isysoi-P35AP-S ~ $ ls
+pmvs
+Sysoi123u@isysoi-P35AP-S ~ $ cd pmvs
+Sysoi123u@isysoi-P35AP-S ~/pmvs $ mkdir lab1
+mkdir: невозможно создать каталог «lab1»: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs $ su -
+Пароль: 
+isysoi-P35AP-S ~ # cd /home/Sysoi123u
+isysoi-P35AP-S Sysoi123u # cd pmvs/
+isysoi-P35AP-S pmvs # mkdir lab1
+isysoi-P35AP-S pmvs # exit
+выход
+Sysoi123u@isysoi-P35AP-S ~/pmvs $ cd lab1
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git init
+/home/Sysoi123u/pmvs/lab1/.git: Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su _
+Отсутствует passwd-запись для пользователя «_»
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -
+Пароль: 
+isysoi-P35AP-S ~ # cd /home/Sysoi123u/pmvs/lab1
+isysoi-P35AP-S lab1 # git init
+Инициализирован пустой репозиторий Git в /home/Sysoi123u/pmvs/lab1/.git/
+isysoi-P35AP-S lab1 # git remote add origin git@github.com:fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+isysoi-P35AP-S lab1 # exit
+выход
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ scp Sysoi123r@192.168.56.101:~/sysoi/text_tee_file.txt /home/Sysoi123u/pmvs/lab1/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes 
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+/home/Sysoi123u/pmvs/lab1//text_tee_file.txt: Permission denied
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ scp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+pi@192.168.56.101's password: 
+Permission denied, please try again.
+pi@192.168.56.101's password: 
+/home/Sysoi123u/pmvs/lab1//lab1r.txt: Permission denied
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -
+Пароль: 
+isysoi-P35AP-S ~ # scp pi@192.168.56.101:~/lab1r.txt /home/Sysoi123u/pmvs/lab1/
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.56.101' (ECDSA) to the list of known hosts.
+pi@192.168.56.101's password: 
+lab1r.txt                                                                                                                   100% 1598     1.6KB/s   00:00    
+isysoi-P35AP-S ~ # scp Sysoi123r@192.168.56.101:~/sysoi/text_tee_file.txt /home/Sysoi123u/pmvs/lab1/
+Sysoi123r@192.168.56.101's password: 
+text_tee_file.txt                                                                                                           100%   10     0.0KB/s   00:00    
+isysoi-P35AP-S ~ # exit
+выход
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git status
+На ветке master
+
+Начальный коммит
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
+
+	lab1r.txt
+	text_tee_file.txt
+
+ничего не добавлено в коммит, но есть неотслеживаемые файлы (используйте «git add», чтобы отслеживать их)
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ mv lab1r.text adduser_r.txt
+mv: не удалось выполнить stat для 'lab1r.text': Нет такого файла или каталога
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ mv lab1r.txt adduser_r.txt
+mv: невозможно переместить 'lab1r.txt' в 'adduser_r.txt': Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -
+Пароль: 
+isysoi-P35AP-S ~ # cd /home/Sysoi123u/pmvs/lab1
+isysoi-P35AP-S lab1 # mv lab1r.txt adduser_r.txt
+isysoi-P35AP-S lab1 # ls
+adduser_r.txt  text_tee_file.txt
+isysoi-P35AP-S lab1 # exit
+выход
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git add .
+fatal: Unable to create '/home/Sysoi123u/pmvs/lab1/.git/index.lock': Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ su -
+Пароль: 
+isysoi-P35AP-S ~ # cd /home/Sysoi123u/pmvs/lab1
+isysoi-P35AP-S lab1 # git add .
+isysoi-P35AP-S lab1 # git commit -m 'add adduser script file in raspberry, tee file'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@isysoi-P35AP-S.(none)')
+isysoi-P35AP-S lab1 # git config --global user.email "14ilya12322@gmail.com"
+isysoi-P35AP-S lab1 # git config --global user.name "Ilya Sysoi"
+isysoi-P35AP-S lab1 # git commit -m 'add adduser script file in raspberry, tee file'
+[master (корневой коммит) 720638d] add adduser script file in raspberry, tee file
+ 2 files changed, 38 insertions(+)
+ create mode 100644 adduser_r.txt
+ create mode 100644 text_tee_file.txt
+isysoi-P35AP-S lab1 # git push -u origin master
+The authenticity of host 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+isysoi-P35AP-S lab1 # git push -u origin master
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+isysoi-P35AP-S lab1 # git remote
+origin
+isysoi-P35AP-S lab1 # git remote remove origin
+isysoi-P35AP-S lab1 # git remote
+isysoi-P35AP-S lab1 # git remote add origin https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+isysoi-P35AP-S lab1 # git push -u origin master
+Username for 'https://github.com': isysoi3
+Password for 'https://isysoi3@github.com': 
+Подсчет объектов: 4, готово.
+Delta compression using up to 4 threads.
+Сжатие объектов: 100% (3/3), готово.
+Запись объектов: 100% (4/4), 964 bytes | 0 bytes/s, готово.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/fpmibsu-pmvs/pmvs-labrabota1-gruppa12-isysoi3.git
+ * [new branch]      master -> master
+Ветка master отслеживает внешнюю ветку master из origin.
+isysoi-P35AP-S lab1 # 
+

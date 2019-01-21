@@ -1,0 +1,68 @@
+Скрипт запущен Вс 09 сен 2018 13:30:03
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m su Sysoi123u 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m ls
+adduser_r.txt                        copy_terminal_fuser.txt   [0m[01;34mfirst[0m       script_add_group_u.txt        script_gzip.txt   script_u.txt
+copy_terminal_add_groups.txt         copy_terminal_pidof.txt   [01;34mps_log[0m      script_catalogs_create_u.txt  script_mc.txt     terminal_copy_u.txt
+copy_terminal_catalogs_create_u.txt  copy_terminal_ps_log.txt  ps_log.txt  script_fuser.txt              script_pidof.txt  text_tee_file.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1 $[00m cd first/second_1[K2/third_1[K3[K2/
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m ls
+3.txt
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m oe[K[Kgzio[Kp [K]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m gzip -c 3.txt > 3.txt.gz
+bash: 3.txt.gz: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m x[Ksudo [K !!
+sudo gzip -c 3.txt > 3.txt.gz
+bash: 3.txt.gz: Отказано в доступе
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m su
+Пароль: 
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1/first/second_2/third_2[01;31misysoi-P35AP-S[01;34m third_2 #[00m exit[2Pmcexit[K gzip -c 3.txt > 3.txt.gz
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1/first/second_2/third_2[01;31misysoi-P35AP-S[01;34m third_2 #[00m ls
+3.txt  [0m[01;31m3.txt.gz[0m
+]0;root@isysoi-P35AP-S /home/Sysoi123u/pmvs/lab1/first/second_2/third_2[01;31misysoi-P35AP-S[01;34m third_2 #[00m exit
+exit
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m ls
+3.txt  [0m[01;31m3.txt.gz[0m
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m sudo gzip -t 3.txt.gz [K
+[sudo] пароль для Sysoi123u: 
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m ls
+3.txt  [0m[01;31m3.txt.gz[0m
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m ls[Kscp 3.txt.gz Sysoi123r@192.56.[K[K[K165[K8.56.101:![K~
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+3.txt.gz                                                                                                                      0%    0     0.0KB/s   --:-- ETA3.txt.gz                                                                                                                    100%   36     0.0KB/s   00:00    
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m ssh Sysoi123r@18+[K[K92.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 08:01:40 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+[0m[01;31m3.txt.gz[0m  [01;34msysoi[0m
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m пяшз [K[K[K[K[Kgzip -d 3.txt.gz
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m ls
+3.txt  [0m[01;34msysoi[0m
+]0;Sysoi123r@raspberry: ~[01;32mSysoi123r@raspberry[00m:[01;34m~ $[00m exit
+logout
+Connection to 192.168.56.101 closed.
+]0;Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/first/second_2/third_2[01;32mSysoi123u@isysoi-P35AP-S[00m [01;34m~/pmvs/lab1/first/second_2/third_2 $[00m exit
+exit
+]0;root@isysoi-P35AP-S ~/pmvs/lab1[01;31misysoi-P35AP-S[01;34m lab1 #[00m w[Kexit
+exit
+
+Скрипт выполнен Вс 09 сен 2018 13:37:26

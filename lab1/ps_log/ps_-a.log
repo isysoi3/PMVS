@@ -1,0 +1,15 @@
+  PID TTY          TIME CMD
+ 6208 pts/0    00:00:00 su
+ 6216 pts/0    00:00:00 bash
+ 6403 pts/0    00:00:00 su
+ 6411 pts/0    00:00:00 bash
+ 8061 pts/0    00:00:00 git
+ 8062 pts/0    00:00:00 git-remote-http
+10757 pts/0    00:00:00 sudo
+10758 pts/0    00:00:00 script
+10775 pts/3    00:00:00 su
+10783 pts/3    00:00:00 bash
+11040 pts/3    00:00:00 su
+11048 pts/3    00:00:00 bash
+11063 pts/3    00:00:00 sudo
+11064 pts/3    00:00:00 ps

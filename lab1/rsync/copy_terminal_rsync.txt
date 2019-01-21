@@ -1,0 +1,227 @@
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ man rsync
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script  script_fuse.txt
+Скрипт запущен, файл — script_fuse.txt
+isysoi-P35AP-S lab1 # exit
+exit
+Скрипт выполнен, файл - script_fuse.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ git status
+На ветке master
+Ваша ветка обновлена в соответствии с «origin/master».
+нечего коммитить, нет изменений в рабочем каталоге
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo script  script_rsync.txt
+Скрипт запущен, файл — script_rsync.txt
+isysoi-P35AP-S lab1 # su Sysoi123u 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo mkdir rsync-backup
+[sudo] пароль для Sysoi123u: 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+1.1  add groups  catalogs create  first  first.tar.gz  fuser  gzip  mc  pidof  ps  ps_log  rsync-backup  script_rsync.txt  tar  text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 11:43:49 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ ls
+3.txt  sysoi
+Sysoi123r@raspberry:~ $ cd sysoi
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar  home  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $  sudo mkdir rsync-backup
+[sudo] password for Sysoi123r: 
+Sysoi123r is not in the sudoers file.  This incident will be reported.
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar  home  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $ cd home^C
+Sysoi123r@raspberry:~/sysoi $  mkdir rsync-backup
+Sysoi123r@raspberry:~/sysoi $ 
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar  home  rsync-backup  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+1.1  add groups  catalogs create  first  first.tar.gz  fuser  gzip  mc  pidof  ps  ps_log  rsync-backup  script_rsync.txt  tar  text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cp text_tee_file.txt rsync-backup/
+cp: невозможно создать обычный файл 'rsync-backup/text_tee_file.txt': Отказано в доступе
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ sudo !!
+sudo cp text_tee_file.txt rsync-backup/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ ls
+1.1  add groups  catalogs create  first  first.tar.gz  fuser  gzip  mc  pidof  ps  ps_log  rsync-backup  script_rsync.txt  tar  text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1 $ cd rsync-backup/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ ls
+text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ vim text_tee_file.txt 
+Приложение 'vim' может быть найдено в следующих пакетах:
+ * vim
+ * vim-gnome
+ * vim-tiny
+ * vim-athena
+ * vim-athena-py2
+ * vim-gnome-py2
+ * vim-gtk
+ * vim-gtk-py2
+ * vim-gtk3
+ * vim-gtk3-py2
+ * vim-nox
+ * vim-nox-py2
+Попробуйте: sudo apt install <выбранный пакет>
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ nano text_tee_file.txt 
+Unable to create directory /home/Sysoi123u/.nano: Отказано в доступе
+It is required for saving/loading search history or cursor positions.
+
+Нажмите ВВОД для продолжения.
+\
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ rsync -avzh /root/firstdir root@10.249.140.239:/root/
+^Z
+[1]+  Остановлено  rsync -avzh /root/firstdir root@10.249.140.239:/root/
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+sending incremental file list
+rsync-backup/
+rsync-backup/text_tee_file.txt
+
+sent 158 bytes  received 39 bytes  56.29 bytes/sec
+total size is 18  speedup is 0.09
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 11:58:24 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ ls
+3.txt  sysoi
+Sysoi123r@raspberry:~ $ cd sysoi
+Sysoi123r@raspberry:~/sysoi $ ls
+first.tar  home  rsync-backup  text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi $ cd rsync-backup/
+Sysoi123r@raspberry:~/sysoi/rsync-backup $ ls
+rsync-backup
+Sysoi123r@raspberry:~/sysoi/rsync-backup $ cd rsync-backup/
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ ls
+text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ nano text_tee_file.txt 
+Unable to create directory /home/Sysoi123u/.nano: Отказано в доступе
+It is required for saving/loading search history or cursor positions.
+
+Нажмите ВВОД для продолжения.
+
+Используйте «fg» для возврата в nano
+
+[2]+  Остановлено  nano text_tee_file.txt
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ sudo !!
+sudo nano text_tee_file.txt 
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ rsync -avzh ~/pmvs/lab1/rsync-backup Sysoi123r@192.168.56.101:~/sysoi/rsync-backup/
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+sending incremental file list
+rsync-backup/
+rsync-backup/text_tee_file.txt
+
+sent 164 bytes  received 45 bytes  46.44 bytes/sec
+total size is 21  speedup is 0.10
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 12:05:13 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ cd sysoi/rsync-backup/rsync-backup/
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ ls
+text_tee_file.txt
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ nano text_tee_file.txt 
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ exit
+exit
+Есть приостановленные задачи.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ cat text_tee_file.txt 
+test info to sync123
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ ssh Sysoi123r@192.168.56.101
+Could not create directory '/home/Sysoi123u/.ssh'.
+The authenticity of host '192.168.56.101 (192.168.56.101)' can't be established.
+ECDSA key fingerprint is SHA256:+XFPw3kDwYha7cFBYAxmfL761q58ql9b5MXaTpMo5uI.
+Are you sure you want to continue connecting (yes/no)? ^[[A^[[Ayes
+Please type 'yes' or 'no': yes
+Failed to add the host to the list of known hosts (/home/Sysoi123u/.ssh/known_hosts).
+Sysoi123r@192.168.56.101's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Sep  9 12:11:32 2018 from 192.168.56.1
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+Sysoi123r@raspberry:~ $ cd sysoi/rsync-backup/rsync-backup/
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ cat text_tee_file.txt 
+test info to sync123
+Sysoi123r@raspberry:~/sysoi/rsync-backup/rsync-backup $ exit
+logout
+Connection to 192.168.56.101 closed.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ exit
+exit
+Есть приостановленные задачи.
+Sysoi123u@isysoi-P35AP-S ~/pmvs/lab1/rsync-backup $ exit
+exit
+Получен SIGHUP или SIGTERM
+isysoi-P35AP-S lab1 # rsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(638) [sender=3.1.1]
+exit
+exit
+Скрипт выполнен, файл - script_rsync.txt
+
