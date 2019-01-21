@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator3</string>
+    <string name="from_label">Od:</string>
+    <string name="to_label">To:</string>
+    <string name="equals_button_text">=</string>
+    <string name="numbers_double_separator">,</string>
+    <string name="error">Wrong number</string>
+    <string name="switch_converter">Przełączanie na inny konwerter</string>
+    <string name="ok">Dobrze</string>
+</resources>
