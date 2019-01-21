@@ -1,0 +1,13 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $ script script_task4_first.txt
+Скрипт запущен, файл — script_task4_first.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $ mkdir docs > mkdir_log.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $ ls
+docs  mkdir_log.txt  script_task4_first.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $ car mkdir_log.txt 
+Программа 'car' на данный момент не установлена. Вы можете установить её, выполнив:
+sudo apt install ucommon-utils
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $ cat mkdir_log.txt 
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $ exit
+exit
+Скрипт выполнен, файл - script_task4_first.txt
+

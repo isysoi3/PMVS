@@ -1,0 +1,1116 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ script script_task2.txt
+Скрипт запущен, файл — script_task2.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ find ~ -type f -empty
+find: «/home/isysoi/.cache/dconf»: Отказано в доступе
+/home/isysoi/.mozilla/firefox/mwad0hks.default/AlternateServices.txt
+/home/isysoi/.mozilla/firefox/mwad0hks.default/.parentlock
+/home/isysoi/.mozilla/firefox/mwad0hks.default/SecurityPreloadState.txt
+find: «/home/isysoi/.gnupg»: Отказано в доступе
+/home/isysoi/tmp.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/Local Storage/leveldb/LOCK
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/Cookies-journal
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/000003.log
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/LOCK
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/182.4323.46/plugins/android/lib/templates/gradle-projects/NewAndroidProject/root/settings.gradle.ftl
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.5281.24/plugins/android/lib/templates/gradle-projects/NewAndroidProject/root/settings.gradle.ftl
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/lib/ReSharperHost/linux-x64/mono/lib/mono/gac/MSCREATE.DIR
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/plugins/spy-js/server/node_modules/acorn/src/loose/acorn_loose.js
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/plugins/spy-js/server/node_modules/acorn/dist/.keep
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/plugins/JavaScriptLanguage/languageService/eslint/src/testData/.eslintrc.bad.json
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/register.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_headers.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/check.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_rpm.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_packager.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/config.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/sdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/clean.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_wininst.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build_ext.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_data.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_lib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build_clib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_dumb.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/xml/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/xml/etree/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/urllib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/tornado/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/OpenSSL/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/fb303/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/hazmat/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/asymmetric/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/scribe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/google/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/google/protobuf/internal/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/kazoo/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/kazoo/recipe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/requests/packages/urllib3/packages/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/requests/packages/urllib3/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/pymysql/constants/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/backports/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/dateutil/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/Crypto/Random/Fortuna/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/3/docutils/parsers/rst/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/3/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/3/jwt/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/_pytest/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/_pytest/mark/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/share/cmake-3.12/Modules/IntelVSImplicitPath/hello.f
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/JavaScriptLanguage/languageService/eslint/src/testData/.eslintrc.bad.json
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/_pytest/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/_pytest/mark/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/share/cmake-3.10/Modules/IntelVSImplicitPath/hello.f
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/JavaScriptLanguage/languageService/eslint/src/testData/.eslintrc.bad.json
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/register.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_headers.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/check.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_rpm.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_packager.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/config.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/sdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/clean.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_wininst.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build_ext.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_data.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_lib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build_clib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_dumb.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/xml/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/xml/etree/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/urllib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/tornado/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/OpenSSL/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/fb303/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/hazmat/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/asymmetric/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/scribe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/google/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/google/protobuf/internal/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/kazoo/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/kazoo/recipe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/requests/packages/urllib3/packages/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/requests/packages/urllib3/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/pymysql/constants/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/backports/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/dateutil/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/Crypto/Random/Fortuna/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/3/docutils/parsers/rst/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/3/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/3/jwt/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/QtWebEngine/Default/Local Storage/__0.localstorage-journal
+/home/isysoi/.local/share/Trash/files/report/report_1
+/home/isysoi/.local/share/Trash/files/report/report_3
+/home/isysoi/.local/share/Trash/files/report/report_2
+/home/isysoi/.local/share/Trash/files/request_2
+/home/isysoi/.local/share/Trash/files/request_1
+/home/isysoi/.local/share/Trash/files/request_3
+/home/isysoi/.local/share/TelegramDesktop/tdata/working
+/home/isysoi/.config/google-chrome/Default/Sync Data/SyncData.sqlite3-journal
+/home/isysoi/.config/google-chrome/Default/Sync Data/LevelDB/LOCK
+/home/isysoi/.config/google-chrome/Default/Top Sites-journal
+/home/isysoi/.config/google-chrome/Default/GCM Store/Encryption/LOCK
+/home/isysoi/.config/google-chrome/Default/GCM Store/LOCK
+/home/isysoi/.config/google-chrome/Default/Session Storage/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/Origins/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/001/p/00/00000000
+/home/isysoi/.config/google-chrome/Default/File System/001/p/Paths/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/002/t/Paths/000003.log
+/home/isysoi/.config/google-chrome/Default/File System/002/t/Paths/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/000/t/Paths/LOCK
+/home/isysoi/.config/google-chrome/Default/Application Cache/Index-journal
+/home/isysoi/.config/google-chrome/Default/previews_opt_out.db-journal
+/home/isysoi/.config/google-chrome/Default/QuotaManager-journal
+/home/isysoi/.config/google-chrome/Default/data_reduction_proxy_leveldb/000055.log
+/home/isysoi/.config/google-chrome/Default/data_reduction_proxy_leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/Affiliation Database-journal
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/ndnaehgpjlnokgebbaldlmgkapkpjkkb/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/aomjjhallfgjeglblehebfpbcfeobpgk/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/ghbmnnjooekpmoecnnnilnnbdlolhkhi/LOCK
+/home/isysoi/.config/google-chrome/Default/Extension State/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_tproger.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.joybuy.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_mintguide.org_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_evroopt.by_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_text.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.google.by_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_e.mail.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_losst.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.slivki.by_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Storage/leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/databases/Databases.db-journal
+/home/isysoi/.config/google-chrome/Default/Shortcuts-journal
+/home/isysoi/.config/google-chrome/Default/Extension Cookies-journal
+/home/isysoi/.config/google-chrome/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+/home/isysoi/.config/google-chrome/Default/Feature Engagement Tracker/EventDB/000003.log
+/home/isysoi/.config/google-chrome/Default/Feature Engagement Tracker/EventDB/LOCK
+/home/isysoi/.config/google-chrome/Default/.com.google.Chrome.P4Wlvw
+/home/isysoi/.config/google-chrome/Default/Cookies-journal
+/home/isysoi/.config/google-chrome/Default/Thumbnails/000003.log
+/home/isysoi/.config/google-chrome/Default/Thumbnails/LOCK
+/home/isysoi/.config/google-chrome/Default/page_load_capping_opt_out.db-journal
+/home/isysoi/.config/google-chrome/Default/Origin Bound Certs-journal
+/home/isysoi/.config/google-chrome/Default/Web Data-journal
+/home/isysoi/.config/google-chrome/Default/Favicons-journal
+/home/isysoi/.config/google-chrome/Default/Network Action Predictor-journal
+/home/isysoi/.config/google-chrome/Default/VideoDecodeStats/LOCK
+/home/isysoi/.config/google-chrome/Default/Service Worker/Database/LOCK
+/home/isysoi/.config/google-chrome/Default/Extension Rules/LOCK
+/home/isysoi/.config/google-chrome/Default/Extensions/aomjjhallfgjeglblehebfpbcfeobpgk/4.7.3.90_0/test/common.js
+/home/isysoi/.config/google-chrome/Default/Managed Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/LOCK
+/home/isysoi/.config/google-chrome/Default/Download Service/EntryDB/000055.log
+/home/isysoi/.config/google-chrome/Default/Download Service/EntryDB/LOCK
+/home/isysoi/.config/google-chrome/Default/Login Data-journal
+/home/isysoi/.config/google-chrome/Default/in_progress_download_metadata_store
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/apnjnioapinblneaedefcnopcjepgkci/LOCK
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/ndnaehgpjlnokgebbaldlmgkapkpjkkb/LOCK
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/pkedcjkdefgpdelpbcmbmeomcjbeemfm/000003.log
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/pkedcjkdefgpdelpbcmbmeomcjbeemfm/LOCK
+/home/isysoi/.config/google-chrome/.com.google.Chrome.Ecv4VK
+/home/isysoi/.config/google-chrome/Safe Browsing Channel IDs-journal
+/home/isysoi/.config/google-chrome/First Run
+/home/isysoi/.config/google-chrome/Safe Browsing Cookies-journal
+/home/isysoi/.config/VK/Local Storage/file__0.localstorage-journal
+/home/isysoi/.config/enchant/en_US.exc
+/home/isysoi/.config/enchant/en_US.dic
+/home/isysoi/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu
+/home/isysoi/.config/GitKraken/Local Storage/https_account.gitkraken.com_0.localstorage-journal
+/home/isysoi/.config/GitKraken/Cookies-journal
+/home/isysoi/.thunderbird/8y9yvxu1.default/.parentlock
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-Y-Yltra-Dark.png
+/home/isysoi/.cinnamon/spices.cache/theme/Thunderbolt.png
+/home/isysoi/.cinnamon/spices.cache/theme/iOS-X.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Kashmir-Blue.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Glaucous-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/Windows-10.png
+/home/isysoi/.cinnamon/spices.cache/theme/Chinvat.png
+/home/isysoi/.cinnamon/spices.cache/theme/MGSE-Unity.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Ubuntu.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Lemon.png
+/home/isysoi/.cinnamon/spices.cache/theme/New-Minty.png
+/home/isysoi/.cinnamon/spices.cache/theme/Graphite-One.png
+/home/isysoi/.cinnamon/spices.cache/theme/Tomcat.png
+/home/isysoi/.cinnamon/spices.cache/theme/Tyr-himinn.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Fedora-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Mint.png
+/home/isysoi/.cinnamon/spices.cache/theme/Tyr-jord.png
+/home/isysoi/.cinnamon/spices.cache/theme/ScaleUp.png
+/home/isysoi/.cinnamon/spices.cache/theme/Minty.png
+/home/isysoi/.cinnamon/spices.cache/theme/Adapta-Nokto-Eta.png
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-Y-Blue.png
+/home/isysoi/.cinnamon/spices.cache/theme/BelaLugosi.png
+/home/isysoi/.cinnamon/spices.cache/theme/OSX.png
+/home/isysoi/.cinnamon/spices.cache/theme/Photocopy.png
+/home/isysoi/.cinnamon/spices.cache/theme/Nightlife-Mint.png
+/home/isysoi/.cinnamon/spices.cache/theme/Nightlife-Human.png
+/home/isysoi/.cinnamon/spices.cache/theme/Trampoline.png
+/home/isysoi/.cinnamon/spices.cache/theme/Silk.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Gold-Spice.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Rhino.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Ubuntu-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/CBlack-Remix.png
+/home/isysoi/.cinnamon/spices.cache/theme/Adapta-Nokto.png
+/home/isysoi/.cinnamon/spices.cache/theme/Utnapishtim-Sleek.png
+/home/isysoi/.cinnamon/spices.cache/theme/Discreet-Flat.png
+/home/isysoi/.cinnamon/spices.cache/theme/Numix-Cinnamon-Transparent.png
+/home/isysoi/.cinnamon/spices.cache/theme/Vivaldi-ZorinOS.png
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-X-Dark.png
+/home/isysoi/.cinnamon/spices.cache/theme/Loki.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Rosso-Cursa.png
+/home/isysoi/.cinnamon/spices.cache/theme/Ambiance-Crunchy.png
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-XP-Metallic.png
+/home/isysoi/.cinnamon/spices.cache/theme/ChromeOS.png
+/home/isysoi/.cinnamon/spices.cache/theme/Railway.png
+/home/isysoi/.cinnamon/spices.cache/theme/Faience.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Lemon-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/Carta.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Glaucous.png
+/home/isysoi/.cinnamon/spices.cache/theme/Utnapishtim-Nexus.png
+/home/isysoi/.cinnamon/spices.cache/extension/index.json
+/home/isysoi/Development/GitHub/BSU/Programming/Java/lab7/Baggage.dat
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/test/test/maze.out
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/test/test/Строки до 3 слов или ошибка.out
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/Stack/Stack/StackArray.cpp
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/Stack/Stack/Stack.cpp
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/3_Memory/NVIDIA Debug/3_Memory.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/3_Memory/Intel Debug/3_Memory.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/NVIDIA Debug/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/NVIDIA Release/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/Intel Release/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/Intel Debug/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/4_Multidimension/NVIDIA Debug/4_Multidimension.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/4_Multidimension/Intel Debug/4_Multidimension.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/0_Hello_World/NVIDIA Debug/0_Hello_World.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/0_Hello_World/Intel Debug/0_Hello_World.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/5_Vector_Types/NVIDIA Debug/5_Vector_Types.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/5_Vector_Types/Intel Debug/5_Vector_Types.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/1_Empty_Kernel/NVIDIA Debug/1_Empty_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/1_Empty_Kernel/Intel Debug/1_Empty_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_2/third_3/4.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_2/third_3/1.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_1/third_1/2.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_1/third_1/1.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_1/2.txt
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report/report_1
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report/report_3
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report/report_2
+/home/isysoi/.gksu.lock
+/home/isysoi/.sudo_as_admin_successful
+find: «/home/isysoi/.gvfs»: Отказано в доступе
+/home/isysoi/.gconf/desktop/gnome/url-handlers/%gconf.xml
+/home/isysoi/.gconf/desktop/gnome/%gconf.xml
+/home/isysoi/.gconf/desktop/%gconf.xml
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ find ~ -type f -empty &
+[1] 16624
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ find: «/home/isysoi/.cache/dconf»: Отказано в доступе
+/home/isysoi/.mozilla/firefox/mwad0hks.default/AlternateServices.txt
+/home/isysoi/.mozilla/firefox/mwad0hks.default/.parentlock
+/home/isysoi/.mozilla/firefox/mwad0hks.default/SecurityPreloadState.txt
+find: «/home/isysoi/.gnupg»: Отказано в доступе
+/home/isysoi/tmp.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/Local Storage/leveldb/LOCK
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/Cookies-journal
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/000003.log
+/home/isysoi/.local/share/JetBrains/Toolbox/cef-cache/LOCK
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/182.4323.46/plugins/android/lib/templates/gradle-projects/NewAndroidProject/root/settings.gradle.ftl
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/181.5281.24/plugins/android/lib/templates/gradle-projects/NewAndroidProject/root/settings.gradle.ftl
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/lib/ReSharperHost/linux-x64/mono/lib/mono/gac/MSCREATE.DIR
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/plugins/spy-js/server/node_modules/acorn/src/loose/acorn_loose.js
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/plugins/spy-js/server/node_modules/acorn/dist/.keep
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.348/plugins/JavaScriptLanguage/languageService/eslint/src/testData/.eslintrc.bad.json
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/register.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_headers.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/check.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_rpm.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_packager.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/config.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/sdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/clean.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_wininst.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build_ext.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_data.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/install_lib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/build_clib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/command/bdist_dumb.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/xml/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/2and3/xml/etree/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/urllib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/stdlib/3/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/tornado/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/OpenSSL/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/fb303/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/hazmat/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/asymmetric/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/scribe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/google/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/google/protobuf/internal/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/kazoo/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2/kazoo/recipe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/requests/packages/urllib3/packages/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/requests/packages/urllib3/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/pymysql/constants/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/backports/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/dateutil/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/2and3/Crypto/Random/Fortuna/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/3/docutils/parsers/rst/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/3/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/third_party/3/jwt/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/181.5087.37/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/_pytest/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/_pytest/mark/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/182.4129.34/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/bin/cmake/linux/share/cmake-3.12/Modules/IntelVSImplicitPath/hello.f
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/JavaScriptLanguage/languageService/eslint/src/testData/.eslintrc.bad.json
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/_pytest/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/_pytest/mark/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/plugins/python/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/share/cmake-3.10/Modules/IntelVSImplicitPath/hello.f
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/JavaScriptLanguage/languageService/eslint/src/testData/.eslintrc.bad.json
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/core/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/forms/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/views/generic/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/views/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/django/db/models/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/python-skeletons/asyncio/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydev_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_django_proj_17/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_python/my_django_proj_17/my_app/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_python/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydev_runfiles/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydevd_frame_eval/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/pydevd_concurrency_analyser/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/test_pydevd_reload/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydevd_bundle/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/pydev_ipython/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/_pydev_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pydev/tests_pydevd_mainloop/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/profiler/thriftpy/contrib/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/profiler/_imps/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pycharm/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/register.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_headers.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/check.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_rpm.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_packager.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/config.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/sdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/clean.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build_scripts.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_wininst.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build_ext.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_data.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/install_lib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/build_clib.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/command/bdist_dumb.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/distutils/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/xml/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/2and3/xml/etree/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/email/mime/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/urllib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/wsgiref/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/stdlib/3/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/tornado/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/OpenSSL/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/fb303/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/hazmat/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/asymmetric/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/cryptography/hazmat/primitives/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/scribe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/concurrent/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/google/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/google/protobuf/internal/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/kazoo/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2/kazoo/recipe/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/requests/packages/urllib3/packages/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/requests/packages/urllib3/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/pymysql/constants/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/backports/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/dateutil/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/2and3/Crypto/Random/Fortuna/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/3/docutils/parsers/rst/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/3/werkzeug/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/third_party/3/jwt/contrib/__init__.pyi
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/typeshed/tests/mypy_blacklist.txt
+/home/isysoi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/plugins/python/helpers/pycharm_matplotlib_backend/__init__.py
+/home/isysoi/.local/share/JetBrains/Toolbox/QtWebEngine/Default/Local Storage/__0.localstorage-journal
+/home/isysoi/.local/share/Trash/files/report/report_1
+/home/isysoi/.local/share/Trash/files/report/report_3
+/home/isysoi/.local/share/Trash/files/report/report_2
+/home/isysoi/.local/share/Trash/files/request_2
+/home/isysoi/.local/share/Trash/files/request_1
+/home/isysoi/.local/share/Trash/files/request_3
+/home/isysoi/.local/share/TelegramDesktop/tdata/working
+/home/isysoi/.config/google-chrome/Default/Sync Data/SyncData.sqlite3-journal
+/home/isysoi/.config/google-chrome/Default/Sync Data/LevelDB/LOCK
+/home/isysoi/.config/google-chrome/Default/Top Sites-journal
+/home/isysoi/.config/google-chrome/Default/GCM Store/Encryption/LOCK
+/home/isysoi/.config/google-chrome/Default/GCM Store/LOCK
+/home/isysoi/.config/google-chrome/Default/Session Storage/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/Origins/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/001/p/00/00000000
+/home/isysoi/.config/google-chrome/Default/File System/001/p/Paths/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/002/t/Paths/000003.log
+/home/isysoi/.config/google-chrome/Default/File System/002/t/Paths/LOCK
+/home/isysoi/.config/google-chrome/Default/File System/000/t/Paths/LOCK
+/home/isysoi/.config/google-chrome/Default/Application Cache/Index-journal
+/home/isysoi/.config/google-chrome/Default/previews_opt_out.db-journal
+/home/isysoi/.config/google-chrome/Default/QuotaManager-journal
+/home/isysoi/.config/google-chrome/Default/data_reduction_proxy_leveldb/000055.log
+/home/isysoi/.config/google-chrome/Default/data_reduction_proxy_leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/Affiliation Database-journal
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/ndnaehgpjlnokgebbaldlmgkapkpjkkb/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/aomjjhallfgjeglblehebfpbcfeobpgk/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Extension Settings/ghbmnnjooekpmoecnnnilnnbdlolhkhi/LOCK
+/home/isysoi/.config/google-chrome/Default/Extension State/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_tproger.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.joybuy.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_mintguide.org_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_evroopt.by_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_text.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.google.by_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_e.mail.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_losst.ru_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/IndexedDB/https_www.slivki.by_0.indexeddb.leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/Local Storage/leveldb/LOCK
+/home/isysoi/.config/google-chrome/Default/databases/Databases.db-journal
+/home/isysoi/.config/google-chrome/Default/Shortcuts-journal
+/home/isysoi/.config/google-chrome/Default/Extension Cookies-journal
+/home/isysoi/.config/google-chrome/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+/home/isysoi/.config/google-chrome/Default/Feature Engagement Tracker/EventDB/000003.log
+/home/isysoi/.config/google-chrome/Default/Feature Engagement Tracker/EventDB/LOCK
+/home/isysoi/.config/google-chrome/Default/.com.google.Chrome.P4Wlvw
+/home/isysoi/.config/google-chrome/Default/Cookies-journal
+/home/isysoi/.config/google-chrome/Default/Thumbnails/000003.log
+/home/isysoi/.config/google-chrome/Default/Thumbnails/LOCK
+/home/isysoi/.config/google-chrome/Default/page_load_capping_opt_out.db-journal
+/home/isysoi/.config/google-chrome/Default/Origin Bound Certs-journal
+/home/isysoi/.config/google-chrome/Default/Web Data-journal
+/home/isysoi/.config/google-chrome/Default/Favicons-journal
+/home/isysoi/.config/google-chrome/Default/Network Action Predictor-journal
+/home/isysoi/.config/google-chrome/Default/VideoDecodeStats/LOCK
+/home/isysoi/.config/google-chrome/Default/Service Worker/Database/LOCK
+/home/isysoi/.config/google-chrome/Default/Extension Rules/LOCK
+/home/isysoi/.config/google-chrome/Default/Extensions/aomjjhallfgjeglblehebfpbcfeobpgk/4.7.3.90_0/test/common.js
+/home/isysoi/.config/google-chrome/Default/Managed Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/LOCK
+/home/isysoi/.config/google-chrome/Default/Download Service/EntryDB/000055.log
+/home/isysoi/.config/google-chrome/Default/Download Service/EntryDB/LOCK
+/home/isysoi/.config/google-chrome/Default/Login Data-journal
+/home/isysoi/.config/google-chrome/Default/in_progress_download_metadata_store
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/apnjnioapinblneaedefcnopcjepgkci/LOCK
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/ndnaehgpjlnokgebbaldlmgkapkpjkkb/LOCK
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/pkedcjkdefgpdelpbcmbmeomcjbeemfm/000003.log
+/home/isysoi/.config/google-chrome/Default/Sync Extension Settings/pkedcjkdefgpdelpbcmbmeomcjbeemfm/LOCK
+/home/isysoi/.config/google-chrome/.com.google.Chrome.Ecv4VK
+/home/isysoi/.config/google-chrome/Safe Browsing Channel IDs-journal
+/home/isysoi/.config/google-chrome/First Run
+/home/isysoi/.config/google-chrome/Safe Browsing Cookies-journal
+/home/isysoi/.config/VK/Local Storage/file__0.localstorage-journal
+/home/isysoi/.config/enchant/en_US.exc
+/home/isysoi/.config/enchant/en_US.dic
+/home/isysoi/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu
+/home/isysoi/.config/GitKraken/Local Storage/https_account.gitkraken.com_0.localstorage-journal
+/home/isysoi/.config/GitKraken/Cookies-journal
+/home/isysoi/.thunderbird/8y9yvxu1.default/.parentlock
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-Y-Yltra-Dark.png
+/home/isysoi/.cinnamon/spices.cache/theme/Thunderbolt.png
+/home/isysoi/.cinnamon/spices.cache/theme/iOS-X.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Kashmir-Blue.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Glaucous-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/Windows-10.png
+/home/isysoi/.cinnamon/spices.cache/theme/Chinvat.png
+/home/isysoi/.cinnamon/spices.cache/theme/MGSE-Unity.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Ubuntu.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Lemon.png
+/home/isysoi/.cinnamon/spices.cache/theme/New-Minty.png
+/home/isysoi/.cinnamon/spices.cache/theme/Graphite-One.png
+/home/isysoi/.cinnamon/spices.cache/theme/Tomcat.png
+/home/isysoi/.cinnamon/spices.cache/theme/Tyr-himinn.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Fedora-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Mint.png
+/home/isysoi/.cinnamon/spices.cache/theme/Tyr-jord.png
+/home/isysoi/.cinnamon/spices.cache/theme/ScaleUp.png
+/home/isysoi/.cinnamon/spices.cache/theme/Minty.png
+/home/isysoi/.cinnamon/spices.cache/theme/Adapta-Nokto-Eta.png
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-Y-Blue.png
+/home/isysoi/.cinnamon/spices.cache/theme/BelaLugosi.png
+/home/isysoi/.cinnamon/spices.cache/theme/OSX.png
+/home/isysoi/.cinnamon/spices.cache/theme/Photocopy.png
+/home/isysoi/.cinnamon/spices.cache/theme/Nightlife-Mint.png
+/home/isysoi/.cinnamon/spices.cache/theme/Nightlife-Human.png
+/home/isysoi/.cinnamon/spices.cache/theme/Trampoline.png
+/home/isysoi/.cinnamon/spices.cache/theme/Silk.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Gold-Spice.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Rhino.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Ubuntu-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/CBlack-Remix.png
+/home/isysoi/.cinnamon/spices.cache/theme/Adapta-Nokto.png
+/home/isysoi/.cinnamon/spices.cache/theme/Utnapishtim-Sleek.png
+/home/isysoi/.cinnamon/spices.cache/theme/Discreet-Flat.png
+/home/isysoi/.cinnamon/spices.cache/theme/Numix-Cinnamon-Transparent.png
+/home/isysoi/.cinnamon/spices.cache/theme/Vivaldi-ZorinOS.png
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-X-Dark.png
+/home/isysoi/.cinnamon/spices.cache/theme/Loki.png
+/home/isysoi/.cinnamon/spices.cache/theme/Cinnamox-Rosso-Cursa.png
+/home/isysoi/.cinnamon/spices.cache/theme/Ambiance-Crunchy.png
+/home/isysoi/.cinnamon/spices.cache/theme/Mint-XP-Metallic.png
+/home/isysoi/.cinnamon/spices.cache/theme/ChromeOS.png
+/home/isysoi/.cinnamon/spices.cache/theme/Railway.png
+/home/isysoi/.cinnamon/spices.cache/theme/Faience.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Lemon-Classic.png
+/home/isysoi/.cinnamon/spices.cache/theme/Carta.png
+/home/isysoi/.cinnamon/spices.cache/theme/Glass-Glaucous.png
+/home/isysoi/.cinnamon/spices.cache/theme/Utnapishtim-Nexus.png
+/home/isysoi/.cinnamon/spices.cache/extension/index.json
+/home/isysoi/Development/GitHub/BSU/Programming/Java/lab7/Baggage.dat
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/test/test/maze.out
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/test/test/Строки до 3 слов или ошибка.out
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/Stack/Stack/StackArray.cpp
+/home/isysoi/Development/GitHub/BSU/Programming/c++/1 сем/Stack/Stack/Stack.cpp
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/3_Memory/NVIDIA Debug/3_Memory.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/3_Memory/Intel Debug/3_Memory.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/NVIDIA Debug/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/NVIDIA Release/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/Intel Release/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/2_Vector_Kernel/Intel Debug/2_Vector_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/4_Multidimension/NVIDIA Debug/4_Multidimension.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/4_Multidimension/Intel Debug/4_Multidimension.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/0_Hello_World/NVIDIA Debug/0_Hello_World.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/0_Hello_World/Intel Debug/0_Hello_World.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/5_Vector_Types/NVIDIA Debug/5_Vector_Types.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/5_Vector_Types/Intel Debug/5_Vector_Types.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/1_Empty_Kernel/NVIDIA Debug/1_Empty_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/Architecture of computer/OpenCL_Samples/OpenCL_Samples/1_Empty_Kernel/Intel Debug/1_Empty_Kernel.tlog/unsuccessfulbuild
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_2/third_3/4.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_2/third_3/1.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_1/third_1/2.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_1/third_1/1.txt
+/home/isysoi/Development/GitHub/BSU/PMVS/lab1/first/second_1/2.txt
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report/report_1
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report/report_3
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report/report_2
+/home/isysoi/.gksu.lock
+/home/isysoi/.sudo_as_admin_successful
+find: «/home/isysoi/.gvfs»: Отказано в доступе
+/home/isysoi/.gconf/desktop/gnome/url-handlers/%gconf.xml
+/home/isysoi/.gconf/desktop/gnome/%gconf.xml
+/home/isysoi/.gconf/desktop/%gconf.xml
+^C
+[1]+  Выход из 1       find ~ -type f -empty
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ sleep 200 &
+[1] 16693
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ sleep 2000 &
+[2] 16705
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+[1]-  Выполняется  sleep 200 &
+[2]+  Выполняется  sleep 2000 &
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill %2
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+[1]-  Выполняется  sleep 200 &
+[2]+  Завершено      sleep 2000
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ exec ls R /etc
+ls: невозможно получить доступ к 'R': Нет такого файла или каталога
+/etc:
+acpi			hosts.allow	  ppp
+adduser.conf		hosts.deny	  prime-discrete
+adjtime			hp		  printcap
+alternatives		ifplugd		  profile
+anacrontab		iftab		  profile.d
+apg.conf		ImageMagick-6	  protocols
+apm			init		  pulse
+apparmor		init.d		  purple
+apparmor.d		initramfs-tools   python
+apport			inputrc		  python2.7
+apt			insserv		  python3
+at-spi2			insserv.conf	  python3.5
+avahi			insserv.conf.d	  rc0.d
+bash.bashrc		inxi.conf	  rc1.d
+bash_completion		iproute2	  rc2.d
+bash_completion.d	issue		  rc3.d
+bindresvport.blacklist	issue.net	  rc4.d
+binfmt.d		kbd		  rc5.d
+bluetooth		kernel		  rc6.d
+brlapi.key		kernel-img.conf   rc.local
+brltty			kerneloops.conf   rcS.d
+brltty.conf		ldap		  request-key.conf
+ca-certificates		ld.so.cache	  request-key.d
+ca-certificates.conf	ld.so.conf	  resolvconf
+calendar		ld.so.conf.d	  resolv.conf
+casper.conf		legal		  rmt
+chatscripts		libao.conf	  rpc
+chromium-browser	libaudit.conf	  rsyslog.conf
+cinnamon		libnl-3		  rsyslog.d
+ConsoleKit		libpaper.d	  samba
+console-setup		libreoffice	  sane.d
+cracklib		lightdm		  securetty
+cron.d			lintianrc	  security
+cron.daily		linuxmint	  selinux
+cron.hourly		locale.alias	  sensors3.conf
+cron.monthly		locale.gen	  sensors.d
+crontab			localtime	  services
+cron.weekly		logcheck	  sgml
+cups			login.defs	  shadow
+cupshelpers		logrotate.conf	  shadow-
+dbus-1			logrotate.d	  shells
+debconf.conf		lsb-release	  signond.conf
+debian_version		ltrace.conf	  skel
+default			lvm		  speech-dispatcher
+deluser.conf		machine-id	  ssh
+depmod.d		magic		  ssl
+dhcp			magic.mime	  subgid
+dictionaries-common	mailcap		  subgid-
+dkms			mailcap.order	  subuid
+dnsmasq.d		manpath.config	  subuid-
+doc-base		mc		  sudoers
+dpkg			menu-methods	  sudoers.d
+drirc			mime.types	  sysctl.conf
+emacs			mke2fs.conf	  sysctl.d
+environment		modprobe.d	  systemd
+firefox			modules		  terminfo
+fonts			modules-load.d	  thermald
+fstab			mono		  thunderbird
+fuse.conf		mtab		  timezone
+fwupd.conf		mtools.conf	  tmpfiles.d
+gai.conf		nanorc		  ucf.conf
+gconf			netscsid.conf	  udev
+gdb			network		  udisks2
+geoclue			NetworkManager	  ufw
+ghostscript		networks	  updatedb.conf
+gimp			newt		  update-motd.d
+gnome			nsswitch.conf	  UPower
+gnome-app-install	ntp.conf	  upstart-xsessions
+gnome-vfs-2.0		obex-data-server  upstream-release
+groff			openal		  usb_modeswitch.conf
+group			OpenCL		  usb_modeswitch.d
+group-			openvpn		  vbox
+grub.d			opt		  vdpau_wrapper.cfg
+gshadow			os-release	  vim
+gshadow-		pam.conf	  vtrgb
+gss			pam.d		  wgetrc
+gtk-2.0			papersize	  wildmidi
+gtk-3.0			passwd		  wodim.conf
+guest-session		passwd-		  wpa_supplicant
+gufw			pcmcia		  X11
+hddtemp.db		perl		  xdg
+hdparm.conf		pki		  xml
+host.conf		pm		  zsh_command_not_found
+hostname		pnm2ppa.conf
+hosts			polkit-1
+Скрипт выполнен, файл - script_task2.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ script script_task2_part2.txt
+Скрипт запущен, файл — script_task2_part2.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ bash
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000 16915 16914  0  80   0 -  6504 wait   pts/7    00:00:00 bash
+0 S  1000 19976 16915  0  80   0 -  6505 wait   pts/7    00:00:00 bash
+4 R  1000 20119 19976  0  80   0 -  7538 -      pts/7    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+16915 pts/7    00:00:00 bash
+19976 pts/7    00:00:00 bash
+20127 pts/7    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+16915 pts/7    00:00:00 bash
+19976 pts/7    00:00:00 bash
+20187 pts/7    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+16915 pts/7    00:00:00 bash
+19976 pts/7    00:00:00 bash
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -1 16915
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ Скрипт выполнен, файл - script_task2_part2.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+14188 pts/6    00:00:00 bash
+20437 pts/6    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ bash
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+14188 pts/6    00:00:00 bash
+20519 pts/6    00:00:00 bash
+20539 pts/6    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -2 20519
+
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -15 20519
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+14188 pts/6    00:00:00 bash
+20519 pts/6    00:00:00 bash
+20602 pts/6    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -3 20519
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+14188 pts/6    00:00:00 bash
+20519 pts/6    00:00:00 bash
+20770 pts/6    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps
+  PID TTY          TIME CMD
+14188 pts/6    00:00:00 bash
+20519 pts/6    00:00:00 bash
+20881 pts/6    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000 14188  6008  0  80   0 -  6503 wait   pts/6    00:00:00 bash
+0 S  1000 20519 14188  0  80   0 -  6505 wait   pts/6    00:00:00 bash
+4 R  1000 20899 20519  0  80   0 -  7538 -      pts/6    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill 20874
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ script_task2_part3.txt
+script_task2_part3.txt: команда не найдена
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ script !!
+script script_task2_part3.txt
+Скрипт запущен, файл — script_task2_part3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ sleep 1000 &
+[1] 21150
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+[1]+  Выполняется  sleep 1000 &
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -1 %1
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+[1]+  Обрыв терминальной линии                      sleep 1000
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ sleep 1000 &
+[1] 21235
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -2 %1
+[1]+  Прерывание    sleep 1000
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ sleep 1000 &
+[1] 21320
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -15 %1
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+[1]+  Завершено      sleep 1000
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ sleep 1000 &
+[1] 21346
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -3 %1
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ jobs
+[1]+  Выход              (подготовлен дамп ядра) sleep 1000
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ trap "echo $(pwd) > pwd.txt" TERM
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ls
+script_task2_part2.txt  script_task2_part3.txt  script_task2.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000 21100 21099  0  80   0 -  6556 wait   pts/3    00:00:00 bash
+4 R  1000 22022 21100  0  80   0 -  7538 -      pts/3    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ kill -15 21100
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ls
+pwd.txt  script_task2_part2.txt  script_task2_part3.txt  script_task2.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ cat pwd.txt
+/home/isysoi/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ bash
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000 21100 21099  0  80   0 -  6557 wait   pts/3    00:00:00 bash
+0 S  1000 22146 21100  1  80   0 -  6505 wait   pts/3    00:00:00 bash
+4 R  1000 22166 22146  0  80   0 -  7538 -      pts/3    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ cd ..
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ ls
+task1  task2  task3  task4_variant1
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ kill -15 22146
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ ls
+task1  task2  task3  task4_variant1
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000 21100 21099  0  80   0 -  6557 wait   pts/3    00:00:00 bash
+0 S  1000 22146 21100  0  80   0 -  6505 wait   pts/3    00:00:00 bash
+4 R  1000 22290 22146  0  80   0 -  7538 -      pts/3    00:00:00 ps
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ nice -n 1 bash
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ su 
+Пароль: 
+isysoi-P35AP-S pmvs-labrabota2-gruppa12-isysoi3 # time nice -n 19 updatedb
+
+real	0m12.099s
+user	0m0.136s
+sys	0m0.612s
+isysoi-P35AP-S pmvs-labrabota2-gruppa12-isysoi3 # time nice -n 5 updatedb
+
+real	0m0.164s
+user	0m0.088s
+sys	0m0.072s
+isysoi-P35AP-S pmvs-labrabota2-gruppa12-isysoi3 # eixt
+eixt: команда не найдена
+isysoi-P35AP-S pmvs-labrabota2-gruppa12-isysoi3 # exit
+exit
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ ps -A > file-$(date +%T).txt | at -m now +5 minute
+Программа 'at' на данный момент не установлена. Вы можете установить её, выполнив:
+sudo apt install at
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ sudo apt install at
+[sudo] пароль для isysoi: 
+Чтение списков пакетов… Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии… Готово
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  libgsoap8 libvncserver1 virtualbox-dkms
+Для их удаления используйте «sudo apt autoremove».
+Предлагаемые пакеты:
+  default-mta | mail-transport-agent
+НОВЫЕ пакеты, которые будут установлены:
+  at
+обновлено 0, установлено 1 новых пакетов, для удаления отмечено 0 пакетов, и 17 пакетов не обновлено.
+Необходимо скачать 37,8 kБ архивов.
+После данной операции, объём занятого дискового пространства возрастёт на 154 kB.
+Пол:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 at amd64 3.1.18-2ubuntu1 [37,8 kB]
+Получено 37,8 kБ за 0с (39,5 kБ/c)
+Выбор ранее не выбранного пакета at.
+(Чтение базы данных … на данный момент установлено 211459 файлов и каталогов.)
+Подготовка к распаковке …/at_3.1.18-2ubuntu1_amd64.deb …
+Распаковывается at (3.1.18-2ubuntu1) …
+Обрабатываются триггеры для man-db (2.7.5-1) …
+Обрабатываются триггеры для systemd (229-4ubuntu21.4) …
+Обрабатываются триггеры для ureadahead (0.100.0-19) …
+ureadahead will be reprofiled on next reboot
+Настраивается пакет at (3.1.18-2ubuntu1) …
+Обрабатываются триггеры для systemd (229-4ubuntu21.4) …
+Обрабатываются триггеры для ureadahead (0.100.0-19) …
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ ps -A > file-$(date +%T).txt | at -m now +5 minute
+warning: commands will be executed using /bin/sh
+job 1 at Sun Sep 16 12:16:00 2018
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ pkill firefox | at 16:00
+warning: commands will be executed using /bin/sh
+job 2 at Sun Sep 16 16:00:00 2018
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab 0 0 * * * updatedb
+0: Нет такого файла или каталога
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab 0 0 * * * updatebd
+0: Нет такого файла или каталога
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ sudo updatedb | crontab 0 0 * * * 
+0: Нет такого файла или каталога
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ sudo updatedb > crontab @daily
+updatedb: непредвиденный операнд в командной строке
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ @daily updatedb
+@daily: команда не найдена
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ 0 0 * * * updatedb
+0: команда не найдена
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ echo "0 0 * * * updatedb" > crontab
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ echo "0 *  * * * updatedb" > crontab
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ echo "5,10,15,20,25,30,35,40,45,50,55 * * * * updatedb" > crontab
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -l
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -e
+crontab: installing new crontab
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -l
+0 0 * * * updatedb
+0 * * * * uodatedb
+*/5 * * * * uodatedb
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -e
+crontab: installing new crontab
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -l
+0 0 * * * updatedb
+0 * * * * updatedb
+*/5 * * * * updatedb
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -e
+crontab: installing new crontab
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -l
+0 0 * * * updatedb
+0 * * * * updatedb
+*/5 * * * * updatedb
+*/10 * * * * pkill firefox
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ echo '9 * * * * echo '7 * * * * pkill cron'' > crontab | at now +5 minute
+warning: commands will be executed using /bin/sh
+job 3 at Sun Sep 16 12:49:00 2018
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ crontab -l
+0 0 * * * updatedb
+0 * * * * updatedb
+*/5 * * * * updatedb
+*/10 * * * * pkill firefox
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ exit
+exit
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3 $ exit
+exit
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task2 $ exit
+exit
+Скрипт выполнен, файл - script_task2_part3.txt
+

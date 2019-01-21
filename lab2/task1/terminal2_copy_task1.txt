@@ -1,0 +1,36 @@
+isysoi@isysoi-P35AP-S ~ $ script script_terminal2_task1.txt
+Скрипт запущен, файл — script_terminal2_task1.txt
+isysoi@isysoi-P35AP-S ~ $ ps a
+  PID TTY      STAT   TIME COMMAND
+ 1213 tty7     Ss+    0:15 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/ru
+ 1594 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+ 6012 pts/1    Ss     0:00 bash
+ 6038 pts/3    Ss     0:00 bash
+ 6173 pts/1    S+     0:00 script script_terminal1_task1.txt
+ 6174 pts/4    Ss     0:00 bash -i
+ 6250 pts/3    S+     0:00 script script_terminal2_task1.txt
+ 6251 pts/5    Ss     0:00 bash -i
+ 6285 pts/4    S+     0:00 bash -i
+ 6298 pts/4    S+     0:00 sleep 1
+ 6299 pts/5    R+     0:00 ps a
+isysoi@isysoi-P35AP-S ~ $ ps a
+  PID TTY      STAT   TIME COMMAND
+ 1213 tty7     Ss+    0:22 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/ru
+ 1594 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+ 6012 pts/1    Ss     0:00 bash
+ 6038 pts/3    Ss     0:00 bash
+ 6173 pts/1    S+     0:00 script script_terminal1_task1.txt
+ 6174 pts/4    Ss+    0:00 bash -i
+ 6250 pts/3    S+     0:00 script script_terminal2_task1.txt
+ 6251 pts/5    Ss     0:00 bash -i
+ 6285 pts/4    T      0:00 bash -i
+ 6364 pts/4    T      0:00 sleep 1
+ 6418 pts/4    S      0:00 bash -i
+ 6571 pts/4    S      0:00 bash -i
+ 7199 pts/6    Ss+    0:00 bash
+ 8532 pts/4    S      0:00 sleep 1
+ 8533 pts/5    R+     0:00 ps a
+isysoi@isysoi-P35AP-S ~ $ exit
+exit
+Скрипт выполнен, файл - script_terminal2_task1.txt
+

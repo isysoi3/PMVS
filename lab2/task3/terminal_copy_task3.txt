@@ -1,0 +1,28 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ script script_task3.txt
+Скрипт запущен, файл — script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ ls
+script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ touch re{port,quest}_{1,2,3}
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ ls
+report_1  report_2  report_3  request_1  request_2  request_3  script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ mkdir report
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ ls
+report    report_2  request_1  request_3
+report_1  report_3  request_2  script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ mv report_{1,2,3} ./report
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ ls
+report  request_1  request_2  request_3  script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ cd report/
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report $ ls
+report_1  report_2  report_3
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report $ cd ..
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ ls
+report  request_1  request_2  request_3  script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ rm request_{1,2,3}
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ ls
+report  script_task3.txt
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ echo $(ls ./report)
+report_1 report_2 report_3
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3 $ exit
+exit
+Скрипт выполнен, файл - script_task3.txt

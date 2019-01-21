@@ -1,0 +1,46 @@
+Скрипт запущен Вс 16 сен 2018 10:34:54
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m ^C
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m ps a- a[1P[C[C[C[3Pbg(while true; do echo -n A >> log; sleep 1; done)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbg[K(while true; do echo -n A >> log; sleep 1; done)
+^Z
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m (while true; do echo -n A >> log; sleep 1; done) &
+[2] 6418
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m (while true; do echo -n A >> log; sleep 1; done) &[1P[1@B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[3] 6571
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m jobs
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]   Выполняется  ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[3]-  Выполняется  ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m ку[K[Krenice 10 6418
+6418 (process ID) старый приоритет 0, новый приоритет 10
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m kill %2
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m kill %2renice 10 6418jobs[K
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]   Завершено      ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[3]-  Выполняется  ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m jobskill %2[K3
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m kill %3[3Pjobs
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[3]-  Завершено      ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+]0;isysoi@isysoi-P35AP-S ~[01;32misysoi@isysoi-P35AP-S[00m [01;34m~ $[00m exit
+exit
+
+Скрипт выполнен Вс 16 сен 2018 10:48:36

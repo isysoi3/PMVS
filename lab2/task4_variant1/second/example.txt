@@ -1,0 +1,8 @@
+./second.sh test u+x
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/second $ ls
+second.sh  test
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/second $ ls -l
+итого 4
+-rwxrwx--- 1 isysoi isysoi 510 сен 16 13:30 second.sh
+-rwxrwx--- 1 isysoi isysoi   0 сен 16 13:31 test
+

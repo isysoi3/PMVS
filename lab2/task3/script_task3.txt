@@ -1,0 +1,28 @@
+Скрипт запущен Вс 16 сен 2018 11:17:24
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m ls
+script_task3.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m touch re{port,quest}_{1,2,3}
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m ls
+report_1  report_2  report_3  request_1  request_2  request_3  script_task3.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m mkdir report
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m ls
+[0m[01;34mreport[0m    report_2  request_1  request_3
+report_1  report_3  request_2  script_task3.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m mv report_{1,2,3} ./report
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m ls
+[0m[01;34mreport[0m  request_1  request_2  request_3  script_task3.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m cd report/
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3/report $[00m ls
+report_1  report_2  report_3
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3/report[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3/report $[00m cd ..
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m re[Km request[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mreport[0m  request_1  request_2  request_3  script_task3.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m re[Km request_{1,2,3}
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m ls
+[0m[01;34mreport[0m  script_task3.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m echo $(ls ./report)
+report_1 report_2 report_3
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task3[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isyysoi3/task3 $[00m exit
+exit
+
+Скрипт выполнен Вс 16 сен 2018 11:21:30

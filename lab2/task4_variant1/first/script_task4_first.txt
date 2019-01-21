@@ -1,0 +1,12 @@
+Скрипт запущен Вс 16 сен 2018 12:56:42
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $[00m exitbashcat pwd.txtls[Kkill -15 21100[9Pps -l[3Plstrap "echo $(pwd) > pwd.txt" TERMjobs[Ktrap "echo $(pwd) > pwd.txt" TERMls[Kps -lkill -15 21100ls[Kcat pwd.txt[7Pbashexit[Kmkdir >[Kdocs >>[K mkdir_log.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $[00m ls
+[0m[01;34mdocs[0m  mkdir_log.txt  script_task4_first.txt
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $[00m car mkdir_log.txt 
+Программа 'car' на данный момент не установлена. Вы можете установить её, выполнив:
+sudo apt install ucommon-utils
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $[00m car mkdir_log.txt [1P[1@t
+]0;isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first[01;32misysoi@isysoi-P35AP-S[00m [01;34m~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/first $[00m exit
+exit
+
+Скрипт выполнен Вс 16 сен 2018 12:57:19

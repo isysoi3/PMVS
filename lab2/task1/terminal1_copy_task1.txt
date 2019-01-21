@@ -1,0 +1,47 @@
+isysoi@isysoi-P35AP-S ~ $ script script_terminal1_task1.txt
+Скрипт запущен, файл — script_terminal1_task1.txt
+isysoi@isysoi-P35AP-S ~ $ ^C
+isysoi@isysoi-P35AP-S ~ $ (while true; do echo -n A >> log; sleep 1; done)
+^Z
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+isysoi@isysoi-P35AP-S ~ $ (while true; do echo -n A >> log; sleep 1; done) &
+[2] 6418
+isysoi@isysoi-P35AP-S ~ $ (while true; do echo -n B >> log; sleep 1; done) &
+[3] 6571
+isysoi@isysoi-P35AP-S ~ $ jobs
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]   Выполняется  ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[3]-  Выполняется  ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+isysoi@isysoi-P35AP-S ~ $ renice 10 6418
+6418 (process ID) старый приоритет 0, новый приоритет 10
+isysoi@isysoi-P35AP-S ~ $ kill %2
+isysoi@isysoi-P35AP-S ~ $ jobs
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]   Завершено      ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[3]-  Выполняется  ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+isysoi@isysoi-P35AP-S ~ $ kill %3
+isysoi@isysoi-P35AP-S ~ $ jobs
+[1]+  Остановлено  ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[3]-  Завершено      ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+isysoi@isysoi-P35AP-S ~ $ exit
+exit
+Скрипт выполнен, файл - script_terminal1_task1.txt
+

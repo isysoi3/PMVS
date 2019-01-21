@@ -1,0 +1,6 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab2/pmvs-labrabota2-gruppa12-isysoi3/task4_variant1/third $ ./third.sh ../
+-rw-rw-r-- 1117 ../first/termianl_copy_task4_first.txt
+-rw-rw-r-- 2045 ../first/script_task4_first.txt
+-rw-rw-r-- 0 ../first/mkdir_log.txt
+-rwxrw-r-- 538 ../third/third.sh
+
