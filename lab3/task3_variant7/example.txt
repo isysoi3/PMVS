@@ -1,0 +1,17 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task3_variant7 $ ./task3 /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-la
+brabota3-gruppa12-isysoi3/task3_variant7 /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task3_variant7 5
+Total files: 4
+Total files read: 4
+
+********* PID: 25891 *********
+1> /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task3_variant7/task3.c
+2> /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task3_variant7/task3.c
+------Result: 5043 of 5043 bytes match------
+
+
+Errno result: Bad address 
+
+********* PID: 25890 *********
+1> /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task3_variant7/task3
+2> /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task3_variant7/task3
+------Result: 14008 of 14008 bytes match-----

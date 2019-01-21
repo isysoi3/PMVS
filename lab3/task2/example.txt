@@ -1,0 +1,6 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task2 $ ./task2 
+
+SIGALRM hanlde
+
+Continued
+

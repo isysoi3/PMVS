@@ -1,0 +1,4 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task1 $ ls|wc
+      4       4      29
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task1 $ ./task1 /home/isysoi/Development/GitHub/PMVS/lab3/pmvs-labrabota3-gruppa12-isysoi3/task1
+      4       4      29
