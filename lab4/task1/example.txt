@@ -1,0 +1,15 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task1 $ gawk -f task1 cars.txt 
+4 plym
+5 chevy
+4 ford
+5 volvo
+4 ford
+5 chevy
+3 bmw
+5 honda
+4 ford
+6 toyota
+5 chevy
+4 ford
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task1 $ 
+

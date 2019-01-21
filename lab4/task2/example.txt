@@ -1,0 +1,28 @@
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task2 $ sed -f ins input.txt 
+Следующая строка была изменена: Days you said in dog gathered Don't. Sixth after, deep abundantly dog divide. Life make replenish dominion Winged tree female shall also fill moved fowl he. Set called rule be moving. Firmament above winged.
+
+Следующая строка была изменена: They're second dog. Divided face you're over greater moving and said heaven i male may multiply. So dominion brought beast isn't air first divided. Lesser. Male i that dog creeping.
+
+Kind without. Thing, called forth moving evening. Midst. Man own. Dry gathering his Deep given. Face, fowl without have. Yielding subdue above saw was rule saw, darkness dominion bring set replenish, tree.
+
+Replenish made called beginning. Fill was, they're you one great be bearing creepeth signs doesn't is seed.
+
+There was deep shall blessed. Make shall beast man that was. Fill, signs light it winged set you're living may whose. Was it two a is can't you the herb called.
+
+Следующая строка была изменена: Creature created. Given can't forth dog female you're you're also beginning dominion stars and sixth brought you're you're. Hath were fourth winged moved creature. One heaven. Earth give itself won't under.
+
+They're spirit beginning, called. Our from bearing evening light won't. Gathered fruit great likeness third.
+
+Subdue creature grass waters divide shall place bearing own our spirit unto Fruit over have behold void, whales seas his spirit was. Saying.
+
+Следующая строка была изменена: Hath. Creeping they're won't. His called so dog fruit may night light blessed.
+
+Следующая строка была изменена: May green replenish deep face beginning void seas good dog winged, forth sea there. Seasons creeping one image.
+
+Firmament called whose they're moved beginning earth multiply deep And evening image in let spirit days evening two seas. From morning had to let made wherein morning, fourth for. Darkness.
+
+Следующая строка была изменена: Moveth land is spirit dry. Beast from sixth likeness Made fourth dog make. Is.
+
+Следующая строка была изменена: He second creeping beginning void also. Wherein. dog evening in lights life dog.
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task2 $ 
+

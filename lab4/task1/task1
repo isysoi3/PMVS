@@ -1,0 +1,2 @@
+{print length ($1), $1}
+

@@ -1,0 +1,112 @@
+isysoi@isysoi-P35AP-S ~ $ cd /home/isysoi/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3/
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ ls
+task3  task3.c
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ gcc task3.c -o task3 `pkg-config --libs --cflags fuse`\
+> 
+task3.c: In function ‘task3_read’:
+task3.c:42:20: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         fileBuffer = readme_txt;
+                    ^
+task3.c:46:20: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         fileBuffer = example_txt;
+                    ^
+task3.c: In function ‘task3_getattr’:
+task3.c:180:24: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         stbuf->st_mode = mkdired_mode;
+                        ^
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ sudo ./task3 /mnt/fuse
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ su
+Пароль: 
+isysoi-P35AP-S task3 # cd /m
+media/ mnt/   
+isysoi-P35AP-S task3 # cd /mnt/fuse/
+isysoi-P35AP-S fuse # tree /mnt/fuse/
+/mnt/fuse/
+├── bin
+│   ├── bar
+│   └── baz
+│       ├── cat
+│       ├── example
+│       └── readme.txt
+└── foo
+    └── test.txt
+
+4 directories, 4 files
+isysoi-P35AP-S fuse # exit
+exit
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ sudo umount /mnt/fuse
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ tree /mnt/fuse/
+/mnt/fuse/
+
+0 directories, 0 files
+isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-gruppa12-isysoi3/task3 $ sudo !!
+sudo cat /mnt/fuse/foo/test.txt
+Hello world 0
+Hello world 1
+Hello world 2
+Hello world 3
+Hello world 4
+Hello world 5
+Hello world 6
+Hello world 7
+Hello world 8
+Hello world 9
+Hello world 10
+Hello world 11
+Hello world 12
+Hello world 13
+Hello world 14
+Hello world 15
+Hello world 16
+Hello world 17
+Hello world 18
+Hello world 19
+Hello world 20
+Hello world 21
+Hello world 22
+Hello world 23
+Hello world 24
+Hello world 25
+Hello world 26
+Hello world 27
+Hello world 28
+Hello world 29
+Hello world 30
+Hello world 31
+Hello world 32
+Hello world 33
+Hello world 34
+Hello world 35
+Hello world 36
+Hello world 37
+Hello world 38
+Hello world 39
+Hello world 40
+Hello world 41
+Hello world 42
+Hello world 43
+Hello world 44
+Hello world 45
+Hello world 46
+Hello world 47
+Hello world 48
+Hello world 49
+Hello world 50
+Hello world 51
+Hello world 52
+Hello world 53
+Hello world 54
+Hello world 55
+Hello world 56
+Hello world 57
+Hello world 58
+Hello world 59
+Hello world 60
+Hello world 61
+Hello world 62
+Hello world 63
+Hello isysoi@isysoi-P35AP-S sudo cat /mnt/fuse/bin/baz/example
+Hello worldisysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/lab4/pmvs-labrabota4-ysoi3/task3 $ sudo cat /mnt/fuse/bin/baz/readme.txt
+Student <Илья Сысой>, 1623369isysoi@isysoi-P35AP-S ~/Development/GitHub/PMVS/labysoi3/task3 $ ta4-gruppa12-isy
+
+
