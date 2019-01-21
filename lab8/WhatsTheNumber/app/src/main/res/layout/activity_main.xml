@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="28dp"
+        android:paddingStart="28dp"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:id="@+id/linearLayout"
+            android:gravity="center_horizontal">
+
+        <FrameLayout
+                android:id="@+id/infoGroup"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/dialog_holo_light_frame"/>
+            <TextView
+                    android:text="@string/info_text_view_init"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/infoTextView"/>
+
+        </FrameLayout>
+
+        <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:theme="@style/ProgressBarTheme"
+                android:progress="10" android:max="10"/>
+
+        <FrameLayout
+                android:id="@+id/inputGroup"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp">
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/dialog_holo_light_frame"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/numberEditText"
+                    android:hint="@string/number_edit_text_hint"
+                    android:textAlignment="center"
+            />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestureOverlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout"
+        android:eventsInterceptionEnabled="true"
+        android:gestureStrokeType="multiple"
+        android:gestureColor="@color/colorWhite"
+        />
+
+
+</RelativeLayout>
