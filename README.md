@@ -20,4 +20,4 @@ Android
 Хранение данных: Shared Preferences and SQLite](https://drive.google.com/open?id=1rtCejhjqMN_LvnIu4tsC8oHCk8IMUcSY)
 * [lab10](https://github.com/isysoi3/PMVS/tree/master/lab10) - [Определение местоположения и геолокация в Android. Сетевое взаимодействие](https://drive.google.com/open?id=1BQJ0OBvaTbHkztRkc-314x_1ssMY4lkb)
 * [lab11](https://github.com/isysoi3/AmazingGifs) - [
-Творческое задание. Разработка мобильного приложения для платформы Android](https://drive.google.com/open?id=1gISUzdefdacX9gp_dHKy6zTX2VTwuaAr)
+Творческое задание. Разработка мобильного приложения для платформы Android](https://drive.google.com/open?id=1gISUzdefdacX9gp_dHKy6zTX2VTwuaAr) / with [@yaliza](https://github.com/yaliza)
